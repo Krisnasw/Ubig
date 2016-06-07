@@ -12,7 +12,9 @@
 <?php include('header.php'); ?>
 	<!-- Main Start -->
 	<div class="main-section"> 
+	
 		<!--Main Banner-->
+		<!--TES GITTTTTTTT-->
 			<div id="cbp-fwslider" class="cbp-fwslider">
 				<ul>
 					<li><a href='#'><img src='assets/images/big/bg.jpg'/></a>
