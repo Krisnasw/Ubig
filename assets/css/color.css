@@ -1,0 +1,105 @@
+/*Theme Colors Classes*/
+.cs-color, .active > a, .active > a:hover, .active > a:focus, footer#footer .footer-links a /*Haider Start*/,footer#footer a:hover,.wp-automobile .auto-listing .View-btn:hover,.single-page .cs-category-link-icon ul li a:hover,.single-page .cs-category-link-icon ul li a:hover:after,.main-navigation ul .cs-user-option .cs-user-dropdown ul li:hover a,.main-navigation ul .cs-user-option .cs-user-info .btn-sign-out:hover,.single-page .cs-auto-tab .nav-tabs > li > a:hover,.cs-footer-widgets .widget-our-partners ul li a::before,.cs-footer-widgets .widget-categores ul li a:before,.cs-footer-widgets .widget-about-us ul li a:before,.single-page .cs-detail-nav ul > li > a:hover,.single-page .cs-detail-nav ul > li > a.active,.single-page .cs-detail-nav ul > li > a.active:hover,.cs-construction .time-box h4,.cs-construction .time-box .label,.cs-construction .time-box .cs-slash,/*Haider End*//*Rehan*/
+.wp-automobile ul.cs-user-accounts-list li:hover a, .post-title a:hover, .cs-categories a:hover,
+.wp-automobile ul.cs-user-accounts-list li.active a,
+.wp-automobile .cs-field a:hover, /*faisal*/ .featured-listing ul li .cs-text h6 a:hover, .blog-listing.medium-view .cs-text h4 a:hover, .cs-blog-listing.blog-grid .blog-text h4 a:hover, .single-post .cs-tags ul li a:hover, .single-post .cs-social-media li a:hover, .widget-tags a:hover, .cs-blog-listing.blog-grid .post-option span, .widget-categories ul li a:hover, .widget-recent-posts .cs-text a:hover, .cs-subheader-text .breadcrumbs ul li a:hover, .widget-admin .cs-text a:hover, .cs-about-author .cs-text span a:hover, .cs-about-author .cs-text a:hover, .cs-next-previous-post a:hover, .cs-blog-related-post .blog-medium .cs-text h4 a:hover, .cs-post-options ul li a:hover/*faisal*/, /*asif*/ .wp-automobile .auto-sort-filter .auto-list ul li a:hover i, .wp-automobile .auto-listing .auto-text .btn-list .btn:after, .wp-automobile .cs-listing-filters .cs-search .search-form .loction-search input[type="text"], .wp-automobile .cs-listing-filters .cs-search .search-form .loction-search:before, .wp-automobile .cs-listing-filters .cs-search .search-form .select-input .chosen-container-single .chosen-single, .wp-automobile .cs-listing-filters .cs-search .search-form .select-input:before, .wp-automobile .cs-listing-filters .cs-filter-title h6, .wp-automobile .cs-listing-filters .cs-checkbox-list li label:hover, .cs-checkbox-list li input[type="checkbox"]:checked + label:after, .wp-automobile .cs-listing-filters .panel-default .panel-heading a, .wp-automobile .cs-agent-listing .cs-post-title h6 a:hover,/*Atif CSS Start*/.wp-automobile .cs-blog.cs-blog-grid .blog-element .blog-text .post-title a:hover h4, .wp-automobile .catagory-section .cs-catagory ul li a:hover span,/*Atif CSS end*/ /*Shazad CSS Start*/.cs-services .cs-media i, .wp-automobile .auto-listing .cs-checkbox input[type="checkbox"]:checked + label::after,/*Shop CSS*/.woocommerce ul.products li.product .price, .woocommerce .woocommerce-tabs .tab-content li i /*Shop CSS End*/, .cs-agent-detail .cs-timeline-list li:hover ,.cs-team:hover .cs-text h6 a,
+.cs-team .cs-media .cs-caption ul li a:hover i, .cs-search-result .cs-relevent-links ul li:hover .cs-text h4 a, .cs-faq-tabs .panel-body ul li i, .wp-automobile .cs-faq-tabs .cs-tabs.full-width .nav > li > a:hover, .wp-automobile .cs-faq-tabs .nav > li > a:focus, .panel-group.box .panel-title a, .panel-group.box .panel-title a:before, .widget-archives li a:hover, .widget-comments li a:hover { color: #d00000 !important; }
+.cs-bgcolor, .chosen-container-multi .chosen-choices li.search-choice, .chosen-container .chosen-results li.active-result.highlighted, /*Haider Start*/.single-page .auto-detail-filter .auto-field .active-result.result-selected, .single-page .auto-detail-filter .auto-field  .chosen-container .chosen-results li.highlighted, .main-navigation ul ul li:hover,/*Haider End*/ /*Rehan*/  .wp-automobile ul.cs-user-accounts-list li a:after,
+.wp-automobile .cs-field-holder .chosen-container .chosen-results li.active-result.result-selected,
+.wp-automobile .cs-field-holder .chosen-container .chosen-results li:hover,
+.wp-automobile .pricetable-holder.classic.active .price-holder .cs-price span,
+.wp-automobile .pricetable-holder.classic.active .price-holder a, /*faisal*/ .single-post .cs-contact-form .input-holder input[type="submit"], .blog-listing.large-view .post-detail:before, .blog-listing.large-view .cs-media figcaption .caption-text span, .blog-listing.medium-view .cs-media figcaption .caption-text span, .blog-listing.medium-view .cs-auto-categories li:after, .blog-listing.medium-view .post-detail:before/*faisal*/,/*asif*/.wp-automobile .auto-sort-filter .chosen-container .chosen-results li.highlighted, .wp-automobile .pagination li a:hover, .wp-automobile .cs-listing-filters .slider-handle, .wp-automobile .cs-listing-filters .mCS-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar, .wp-automobile .cs-listing-filters .mCS-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar, .wp-automobile .pagination li a.active,.wp-automobile .auto-listing .auto-text .btn-list ul li:before,
+.wp-automobile .cs-agent-listing .contact-btn:hover, .wp-automobile .cs-compare li .cs-compare-box li:before,/*Shazad CSS Start*/.cs-column-text .cs-button,.wp-automobile .cs-tabs.full-width .nav > li > a:hover, .nav > li > a:focus, .cs-testimonial-slider .cs-media figure:after , .cs-testimonial-slider .slick-dots li button:hover , .cs-testimonial-slider .slick-dots li.slick-active button, .cs-search-result .cs-seggetions .cs-form .input-holder input[type="submit"]{ background-color: #d00000 !important; }
+.csborder-color, /*Haider Start*/.single-page .auto-detail-filter .auto-field .slider.slider-horizontal .slider-tick,.single-page .auto-detail-filter .auto-field  .slider.slider-horizontal .slider-handle,.single-page .cs-auto-tab .nav-tabs > li > a:hover,.main-navigation ul ul li:hover > a,.single-page .cs-detail-nav ul > li > a.active,.single-page .cs-detail-nav ul > li > a.active:hover, /*Haider End*//* Rehan */
+.wp-automobile .pricetable-holder.modren.active,
+.wp-automobile .pricetable-holder.classic.active, /*faisal*/ .widget-tags a:hover, .blog-listing.large-view .cs-text .btn-more, .single-post .cs-tags ul li a:hover,/*faisal*//*asif*/ .wp-automobile .cs-listing-filters .cs-checkbox-list li input[type="checkbox"]:checked + label:after, .wp-automobile .cs-agent-listing .contact-btn:hover, .cs-testimonial-slider .slick-dots li button:hover,  .cs-testimonial-slider .slick-dots li.slick-active button, .widget-text .contact-btn  { border-color: #d00000 !important; }
+.csborder-top-color/*Atif CSS start*/.wp-automobile .cs-tabs.full-width .nav > li > a:hover, .nav > li > a:focus, .wp-automobile .cs-tabs.full-width .nav > li > a:hover, .wp-automobile .cs-tabs.full-width .nav > li > a:focus, .wp-automobile .cs-tabs.full-width .nav-tabs > li.active > a,.wp-automobile .cs-tabs.full-width  .nav-tabs > li.active > a:hover,.wp-automobile .cs-tabs.full-width  .nav-tabs > li.active > a:focus/*Atif CSS end*/,/*Shop*/.woocommerce-tabs .nav-tabs.wc-tabs li.active a, .woocommerce ul.products li.product .product-action-button .button  /*Shop End*/{ border-color: #d00000 !important; }
+/*Theme Colors Classes*/
+body, .main-section p, .mce-content-body p {
+font: Normal 14px/24px "Lato", sans-serif;
+letter-spacing: 0px;
+text-transform: none;
+color: #363636 !important;
+}
+header .logo {
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+}
+#header .navigation > ul > li > a, #header .navigation > ul > li {
+font: Normal 13px/19px "Raleway", sans-serif !important;
+letter-spacing: 0px !important;
+text-transform: uppercase !important;
+}
+h1, h1 a {
+font: 700 Normal 26px/32px "Raleway", sans-serif !important;
+letter-spacing: 1px !important;
+text-transform: uppercase !important;
+color: #333333 !important;
+}
+h2, h2 a {
+font: 700 Normal 22px/30px "Raleway", sans-serif !important;
+letter-spacing: 1px !important;
+text-transform: uppercase !important;
+color: #333333 !important;
+}
+h3, h3 a {
+font: 700 Normal 20px/26px "Raleway", sans-serif !important;
+letter-spacing: 0px !important;
+text-transform: capitalize !important;
+color: #333333 !important;
+}
+h4, h4 a {
+font: 700 Normal 18px/24px "Raleway", sans-serif !important;
+letter-spacing: 0px !important;
+text-transform: capitalize !important;
+color: #333333 !important;
+}
+h5, h5 a {
+font: 700 Normal 16px/22px "Raleway", sans-serif !important;
+letter-spacing: 0px !important;
+text-transform: capitalize !important;
+color: #333333 !important;
+}
+h6, h6 a {
+font: 700 Normal 14px/20px "Raleway", sans-serif !important;
+letter-spacing: 0px !important;
+text-transform: capitalize !important;
+color: #333333 !important;
+}
+.cs-section-title h2 {
+font: 700 Normal 20px/26px "Raleway", sans-serif !important;
+letter-spacing: 0px !important;
+text-transform: uppercase !important;
+}
+.cs-post-title h3 a, .cs-post-title h2 a {
+font: 700 Normal 18px/24px "Raleway", sans-serif !important;
+letter-spacing: 0px !important;
+text-transform: uppercase !important;
+}
+.cs-page-title h1 {
+font: 700 Normal 20px/56px "Raleway", sans-serif !important;
+letter-spacing: 0px !important;
+text-transform: uppercase !important;
+color: #333333 !important;
+}
+.widget .widget-title h5 {
+font: 700 Normal 13px/26px "Raleway", sans-serif !important;
+letter-spacing: 0px !important;
+text-transform: uppercase !important;
+color: #fff !important;
+}
+#header{background:#242931 !important;}
+.navigation > ul ul li > a { color: #bebebe !important; }
+.navigation > ul ul li > a:hover { color: #55A747 !important; }
+.navigation > ul > li:hover > a, .navigation > ul > li.current-menu-ancestor > a, .navigation > ul > li.current-menu-parent > a, .navigation > ul > li.current_page_item > a, .navigation > ul > li.current-menu-parent > ul.sub-dropdown >, .navigation ul li ul.sub-dropdown li.current-menu-parent.current-menu-parent > a, .navigation ul li ul.sub-dropdown li.current-menu-parent ul.sub-dropdown { color: #55A747 !important; }
+.navigation > ul > li > a { color: #555555 !important; }
+.page-sidebar .widget-title h3, .page-sidebar .widget-title h4, .page-sidebar .widget-title h5, .page-sidebar .widget-title h6 { color: #333333 !important; }
+.section-sidebar .widget-title h3, .section-sidebar .widget-title h4, .section-sidebar .widget-title h5, .section-sidebar .widget-title h6 { color: #333333 !important; }
+footer#footer p, footer#footer span, footer#footer .textwidget { color: #626063 !important; }
+.footer-links, .footer-links a { color: #8e9198 !important; }
+#footer .cs-copyright { color: #141215 !important; }
+footer#footer a { color: #8e9198 !important; }
+footer#footer .footer-links a.footer#footer .footer-links { color: #8e9198 !important; }
+footer#footer .copyright-text p a{color: #d00000 !important;}

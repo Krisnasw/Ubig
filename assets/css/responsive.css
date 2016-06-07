@@ -1,0 +1,156 @@
+/* 1170px to 980px or 768px */
+@media screen and (max-width: 1170px) {
+[class*="col-lg"], [class*="col-md"], [class*="col-sm"], [class*="col-xs"] {display:inline-block;vertical-align:top;margin:0 -4px 0 0;float:none;}
+.rtl [class*="col-lg"], .rtl [class*="col-md"], .rtl [class*="col-sm"], .rtl [class*="col-xs"] {display: inline-block;vertical-align: top;margin: 0 0 0 -4px;float: none;}
+.main-navigation ul a { padding: 20px 15px 19px;}
+.main-navigation ul ul ul{ left:-100%;}
+.wp-automobile .main-search .search-btn label a{ font-size:7px;}
+.wp-automobile .auto-listing .auto-text .btn-list .btn.collapsed:after,
+.wp-automobile .auto-listing .auto-text .btn-list .btn:after {left: 10px;}
+.wp-automobile .cs-user-account-holder {padding: 30px 50px; width: 80%;}
+.wp-automobile .auto-listing .cs-checkbox{ margin-right:0;}
+.wp-automobile .cs-listing-filters .cs-model-year .cs-select-filed{ width:41%;}
+.single-page .cs-detail-nav ul > li > a {padding: 17px 24.4px;}
+.single-page .auto-overview ul li .cs-media{ margin-right:10px;}
+.blog-listing.medium-view .post-detail span.post-date {margin-right: 9px;}
+.site-main ul.products li.product {width: 28.555%;}
+.woocommerce.single-product div.product div.images div.thumbnails a img{ width:75px;}
+.wp-automobile .catagory-section .cs-element-title{ padding-top:25px;}
+.wp-automobile .catagory-section{ padding-bottom:50px;}
+.cs-search-result .cs-seggetions .cs-form .input-holder input[type="text"]{width: 82%;}
+}
+
+/* 980px to 768px */
+/* If Required */
+@media screen and (max-width: 980px) {
+/* Responsive Menu */
+.cs-logo{display:block;text-align:center;}
+.cs-logo .cs-media{display:inline-block;}
+.cs-main-nav{width:100%; position:relative;}
+.main-navigation { display: none; }
+.slicknav_menu{ display: block;margin-bottom:10px;padding-top:10px;}
+.cs-main-nav ul { display: none; }
+.cs-main-nav ul li { width: 99%; }
+.slicknav_menu ul { display: block; }
+/*login Form Style Start*/
+li.cs-user-option{display:none;}
+.cs-user-option {display:inline-block;position:absolute;right:0;top:15px;}
+.cs-user-option .cs-login a{color:#8a96a6;padding:20px 20px 19px;}
+.cs-user-option .cs-login .btn-form{padding:0 10px;color:#FFF;font-size:10px;-webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px;font-weight:700;display:inline-block;}
+.cs-user-option .cs-login .btn-form i{display:inline-block;vertical-align:middle;margin-right:5px;font-size:10px;}
+.cs-user-option .cs-login .btn-form:hover{text-decoration:none;color:#FFF;}
+.cs-user-option .cs-login a:hover{color:#8a96a6;text-decoration:underline;}
+.cs-user-option .cs-login .cs-user-dropdown ul{display:block;z-index:999;}
+.cs-user-option .cs-login .cs-user-dropdown ul li{display:block;}
+.cs-user-option .cs-login .cs-login-dropdown .cs-user-dropdown{margin-left:-84px;}
+
+
+.cs-agent-detail .cs-admin-info .cs-text ul li {margin: 0 0 0 6px;padding: 0 0 0 6px;}
+.cs-agent-detail .cs-tabs-holder{ top:0;}
+.wp-automobile .cs-compare{ overflow:hidden;}
+.wp-automobile .cs-compare ul {overflow-y: scroll;width: 1110px;}
+.wp-automobile .cs-user-account-holder {padding: 30px 20px; width: 90%;}
+.wp-automobile .profile-pic {float: left;}
+.wp-automobile .main-search.account-search .select-location{ margin-bottom:3px;}
+.wp-automobile .cs-featurelisted-car .cs-text{ width:100%; margin-top:10px; position:relative;}
+.wp-automobile .cs-load-more{ width:100%;}
+footer#footer .cs-copyright { text-align:center;}
+footer#footer .cs-copyright .cs-back-to-top{ float:none;}
+.cs-footer-widgets .widget{ margin-bottom:20px;}
+.wp-automobile .cs-listing-filters .cs-model-year .cs-select-filed {width: 47.3%;}
+#cs-construction{ position:relative;}
+.cs-search-result .cs-seggetions .cs-form .input-holder input[type="text"]{width: 86%;}
+}
+
+/* 767px to 480px */
+@media screen and (max-width: 768px) {
+.cs-ad img{ width:100%;}
+}
+/* 767px to 480px */
+@media screen and (max-width: 767px) {
+.main-search{ padding:0 10px;}
+.wp-automobile .auto-listing .auto-text .btn-list .btn.collapsed::after,
+.wp-automobile .auto-listing .auto-text .btn-list .btn:after {left: 70px;}
+.wp-automobile .cs-agent-listing .cs-media{ width:20%;}
+.wp-automobile .cs-agent-listing .cs-text{width:80%;}
+.cs-agent-detail .cs-admin-info .cs-text{ width:70%;}
+.blog-listing.medium-view .cs-media {float: none;margin:0 0 20px 0;width: 100%;}
+.wp-automobile .main-search.account-search {padding: 5px 10px;}
+.wp-automobile .cs-featurelisted-car .cs-post-types {float: right;margin-top:0;position: relative; right: 0; top: 0;width: 300px;}
+.wp-automobile .cs-shortlisted-car li .cs-text {overflow: visible; float:left;padding-top: 10px;position: relative; width: 100%;}
+.wp-automobile .cs-listing-filters .cs-model-year .cs-select-filed {width: 46.8%;}
+.wp-automobile .auto-sort-filter .auto-list ul li a i{ margin-left:0;}
+.cs-user-option .cs-login .modal-dialog{width:90%;margin:155px  auto;}
+.single-page .car-detail-heading .auto-text{ margin-bottom:20px;}
+.single-page .cs-detail-nav ul > li > a { padding: 17px 15.4px;}
+.single-page .auto-overview ul li {text-align: left; vertical-align:top; margin-bottom:10px;}
+.wp-automobile .pricetable-holder.modren{ margin:0 14px 50px; }
+.wp-automobile .pricetable-holder.modren.active{ margin:-25px 14px 25px; }
+.wp-automobile .pricetable-holder.modren.first-element{ margin-left:14px;}
+.wp-automobile .pricetable-holder.modren.last-element{ margin-right:14px;}
+.site-main ul.products li.product {width: 44.555%;}
+.woocommerce.single-product div.product div.images div.thumbnails a img{ width:64px;}
+.wp-automobile .catagory-section .cs-catagory ul li {display: inline-block; width: 49%;}
+}
+
+/* 480px to 320px */
+@media screen and (max-width: 480px) {
+.wp-automobile .cs-tabs.full-width .nav li {margin-bottom: 8px;width: 50%;}
+.wp-automobile .auto-listing .cs-media.auto-media-slider, .wp-automobile .auto-listing .cs-media {margin: 0 0 30px 0; position: relative;width: 100%;}
+.wp-automobile .auto-listing .auto-text{ overflow:visible; float:left;}
+.wp-automobile .cs-agent-listing .cs-text{width:100%;}
+.wp-automobile .cs-agent-listing .cs-media ~ .cs-text,
+.wp-automobile .cs-agent-listing .cs-media{ padding:0 0 0 0; margin-bottom:20px;}
+.cs-agent-detail .cs-admin-info .cs-media ~ .cs-text {padding: 30px 0 0;}
+.cs-agent-detail .cs-admin-info .cs-text {width: 100%;}
+.wp-automobile .packages-list,
+.wp-automobile .payment-list{ overflow:hidden;overflow:scroll;}
+.wp-automobile .packages-list ul,
+.wp-automobile .payment-list ul{ width:710px; }
+.wp-automobile .cs-shortlisted-car li .cs-remove-btn{ top:10px;}
+.cs-user-option .cs-login .modal-footer .cs-user-social ul li{margin:0;width:30%;}
+.cs-user-option .cs-login .modal-footer .cs-user-social ul li a{display:block;margin-bottom:6px;}
+.wp-automobile .cs-listing-filters .cs-model-year .cs-select-filed {width: 45.7%;}
+.wp-automobile .auto-sort-filter{ text-align:center;}
+.wp-automobile .auto-sort-filter .auto-show-resuilt{ display:block; text-align:center; float:none;}
+.wp-automobile .auto-sort-filter .auto-list{ float:none; padding-top:5px;}
+.site-main ul.products li.product { width: 100%;margin:0 0 30px 0;}
+.single-product div.product .images{ width:100%; margin:0 0 20px 0;}
+.single-product div.product .entry-summary{ overflow:visible;}
+.woocommerce .woocommerce-tabs .nav-tabs.wc-tabs li a {padding: 18px 20px;}
+.cs-search-result .cs-seggetions .cs-form .input-holder input[type="text"]{width: 80%;}
+.cs-page-not-found form{ width:100%;}
+.cs-seprater-v1{ width:100%;}
+.cs-page-not-found form input[type="text"]{margin-bottom:10px;}
+.cs-page-not-found .input-holder i{left:50px;}
+}
+ @media screen and (max-width: 360px) {
+.wp-automobile .cs-agent-listing .contact-btn{ top:-40px;}
+.cs-agent-detail .cs-admin-info .cs-text ul li {margin: 0 0 10px; padding: 0; width: 100%;}
+.cs-comments ul li .children{margin: 0;}
+.cs-user-option .cs-login .modal-footer .cs-user-social ul li{margin:0;width:50%;}
+.wp-automobile .cs-listing-filters .cs-model-year .cs-select-filed {width: 44%;}
+.single-page .cs-button-style a{ padding:5px;}
+.cs-construction .cs-form .input-holder{ width:100%;}
+.cs-construction .cs-form .input-holder label{ position:relative; right:0; margin-top:5px;}
+.cs-construction .cs-social-media ul li{ margin:0 5px 5px 0; }
+.wp-automobile .auto-sort-filter .cs-select-post {position: relative;width: 158px;}
+.cs-search-result .cs-seggetions .cs-form .input-holder input[type="text"]{width: 74%;}
+.cs-page-not-found .input-holder i{left:39px;}
+.cs-page-not-found .cs-text .cs-error{font-size:50px;}
+}
+@media screen and (max-width: 320px) {
+.wp-automobile .pagination li a {padding: 7px 13px;}
+.wp-automobile .auto-sort-filter .auto-list ul li a i { margin-left: 10px;}
+.wp-automobile .auto-listing .auto-info-detail li {padding: 0 15px;}
+.wp-automobile .cs-user-account-holder {width: 100%;}
+.wp-automobile .cs-listing-filters .cs-model-year .cs-select-filed {width: 43%;}
+.single-page .cs-button-style a { padding: 2px;}
+.single-page .cs-detail-nav ul > li > a { padding: 17px 9.4px;}
+.woocommerce.single-product div.product div.images div.thumbnails a img {width: 56px;}
+.cs-page-not-found .cs-text .cs-error{font-size:50px;}
+.cs-page-not-found form{ width:100%;}
+.cs-seprater-v1{ width:100%;}
+.cs-page-not-found form input[type="text"]{margin-bottom:10px;}
+.cs-page-not-found .input-holder i{left:39px;}
+}

@@ -1,0 +1,952 @@
+/*main search on index page*/
+.wp-automobile .main-search .search-input {position:relative;}
+.wp-automobile .main-search .search-input i{position: absolute;top: 15px;left:10px;color:#565f6a;}
+.wp-automobile .main-search .search-input input{text-indent: 20px;font-size: 14px;height:47px;color:#565f6a; border-radius:0;}
+.wp-automobile .main-search .select-location input{height:47px;font-size: 14px;color:#565f6a;}
+.wp-automobile .main-search .select-location{position: relative}
+.wp-automobile .main-search .select-location a{position: absolute;top:12px;right:10px;color:#d3d3d3; font-size:17px;}
+.wp-automobile .main-search .search-btn{position: relative;color:transparent;}
+.wp-automobile .main-search .search-btn::after{content: "\f002";position: absolute;font-family:'icomoon';top:10px;right:50%;color: #fff;z-index: 99;cursor: pointer;margin-right: -8px;font-size: 18px;}
+.wp-automobile .main-search .search-btn input{text-align: center;width:20px;height: 47px;width:100%;-webkit-box-shadow: 0 0 5px rgba(0,0,0,.4), inset 1px 2px rgba(255,255,255,.3);-moz-box-shadow: 0 0 5px rgba(0,0,0,.4), inset 1px 2px rgba(255,255,255,.3);box-shadow: 0 0 5px rgba(0,0,0,.4), inset 1px 2px rgba(255,255,255,.3);border: solid 1px #a90000;}
+.wp-automobile .main-search .search-btn label{width: 100%;padding-top: 5px;position: relative}
+.wp-automobile .main-search .search-btn label a{color: #fff;font-size: 8px;letter-spacing: .5px;}
+.wp-automobile .main-search .search-btn label i{font-size: 14px;padding-top: 5px;line-height: 20px;}
+.wp-automobile .main-search [class*="col-lg"], .wp-automobile .main-search [class*="col-md"], .wp-automobile.main-search [class*="col-sm"]{padding:5px 5px;}
+.wp-automobile .main-search .chosen-container-single .chosen-single{height:47px;position:relative;border-radius:0;border:0;background:transparent;background-color:#fff; padding-left:12px; font-size:14px;}
+.wp-automobile .main-search .chosen-single{position:relative}
+.wp-automobile .main-search .chosen-single:after{position:absolute;font-family:'icomoon';content:"\e94c";right:8px;top:12px;color:#d3d3d3;font-size:16px}
+.wp-automobile .main-search .chosen-container-active.chosen-with-drop .chosen-single{background:transparent;background-color:#fff;border:none}
+.wp-automobile .main-search .chosen-container-single .chosen-single span{padding-top:11px;color:#adadad;border:none}
+/*main search on index page*/
+/* Map Style */
+.wp-automobile .cs-agent-map {margin:0 0 20px;}
+/* Agent Search Style */
+.wp-automobile .cs-ag-search {width:100%; display:inline-block; border-bottom:1px solid #f2f2f2; padding:0 0 10px; margin:0 0 25px;}
+.wp-automobile .cs-ag-search ul {margin:0; padding:0;}
+.wp-automobile .cs-ag-search li {list-style:none; display:inline-block; margin:0;}
+.wp-automobile .cs-ag-search li a {font-size:11px; color:#666; text-decoration:none; outline:none; border-left:1px solid #ebebeb; padding:0 8px 0 11.444px;}
+.wp-automobile .cs-ag-search li:first-child a {border-left:none; padding-left:0;}
+/* Agent Search Style End */
+/* Agent Listing Style */
+.wp-automobile .cs-agent-listing {border-bottom:1px solid #f2f2f2; margin:0 0 30px; padding:0 0 30px;}
+.wp-automobile .cs-agent-listing .cs-media {display:inline-block; vertical-align:middle; margin: 0 -4px 0 0; width:15%;}
+.wp-automobile .cs-agent-listing .cs-media figure {width:120px; display:inline-block; border:1px solid #ededed;}
+.wp-automobile .cs-agent-listing .cs-media figure a {text-decoration:none; outline:none;}
+.wp-automobile .cs-agent-listing .cs-text {display: inline-block; margin: 0 -4px 0 0; vertical-align: middle; position:relative; width: 85%;}
+.wp-automobile .cs-agent-listing .cs-media ~ .cs-text {padding:0 0 0 30px;}
+.wp-automobile .cs-agent-listing .cs-post-title h6 {display:inline-block; margin:0 5px 0 0; vertical-align: middle;}
+.wp-automobile .cs-agent-listing .cs-post-title h6 a {text-transform:uppercase !important; text-decoration:none; outline:none;}
+.wp-automobile .cs-agent-listing .cs-post-title span {font-size:12px; font-weight:700; text-transform:uppercase;}
+.wp-automobile .cs-agent-listing .contact-btn {position:absolute; right:0; top:50%; font-size:10px; text-transform:uppercase; font-weight:700; border:1px solid #f6f6f6; padding: 3px 10px; margin:-15px 0 0 0; border-radius:2px; text-decoration:none; outline:none; color:#333; background-color:#fcfcfc;}
+.wp-automobile .cs-agent-listing .contact-btn:hover {color:#fff;}
+.wp-automobile .cs-agent-listing .contact-btn i {margin: 0 5px 0 0; vertical-align: middle;}
+.wp-automobile .cs-agent-listing address {font-size:12px; color:#777; font-weight:700; font-style:normal;}
+/* Agent Listing Style End */
+/* Agent Filters Style */
+.wp-automobile .cs-filters-title {border-bottom:1px solid rgba(248,248,248,0.1); padding:13px 20px; margin:0 0 10px; font-size:12px; text-transform:uppercase; color:#fff; font-weight:700; display:block;}
+.wp-automobile .cs-agent-filters {background-color:#414955; display:inline-block; width:100%; margin-bottom:30px;}
+.wp-automobile .cs-agent-filtration {padding:0 20px 20px;}
+.wp-automobile .cs-agent-filtration label {font-size:12px; color:#fff; text-transform:uppercase; font-weight:700;}
+.wp-automobile .cs-agent-filters .cs-select-location {position:relative; margin:0 0 10px;}
+.wp-automobile .cs-agent-filters .cs-select-location input[type="text"] {font-size:13px; color:#999; border:none; height:40px; border-radius:0; padding-left:15px;}
+.wp-automobile .cs-agent-filters .cs-select-location a {color: #999; font-size: 16px; margin: -10px 0 0; position: absolute; right: 10px; top: 50%; text-decoration:none; outline:none;}
+.wp-automobile .cs-agent-filters .cs-select-location small {font-size:12px; color:#999; font-weight:400;}
+.wp-automobile .cs-agent-filters .cs-select-dropdown {margin:0 0 15px;}
+.wp-automobile .cs-agent-filters .chosen-container-single .chosen-single div {right: 2px; top: 11px; width: 24px; height:auto;}
+.wp-automobile .cs-agent-filters .chosen-container-single .chosen-single div:before {position:absolute; left:0; top:0; content:"\e5c5"; font-family: "icomoon"; font-size:20px; color:#bfbfbf; line-height: 16px;}
+.wp-automobile .cs-agent-filters .chosen-container-single .chosen-single {background:#fff; box-shadow:none; border-radius: 0; box-shadow: none; height: 40px; padding: 8px 0 8px 15px; border:none;}
+.wp-automobile .cs-agent-filters .chosen-container-single .chosen-single span {font-size:13px; color:#999;}
+.wp-automobile .cs-agent-filters .chosen-container .chosen-drop {border:none; box-shadow:none;}
+.wp-automobile .cs-agent-filters .cs-search-btn {padding:5px 0 0;}
+.wp-automobile .cs-agent-filters .cs-search-btn input[type="submit"] {width:100%; background:#242931; border:none; color:#fff; text-transform:uppercase; font-size:12px; font-weight:700; min-height:41px;}
+/* Agent Filters Style End */
+/* Agent Detail */
+.cs-agent-detail .main-section {margin: 0;}
+.cs-agent-detail .cs-admin-info .cs-media{float:left;}
+.cs-agent-detail .cs-admin-info .cs-media figure {box-shadow:2px 2px 1px rgba(0, 0, 0, 0.1);}
+.cs-agent-detail .cs-admin-info .cs-media figure img {border-radius:5px;}
+.cs-agent-detail .cs-admin-info .cs-text {width:60%; display:inline-block;}
+.cs-agent-detail .cs-admin-info .cs-media ~ .cs-text {padding:0 0 0 30px;}
+.cs-agent-detail .cs-admin-info .cs-text .cs-title {margin:0 0 6px;}
+.cs-agent-detail .cs-admin-info .cs-text .cs-title h3 {margin:0 10px 0 0; display:inline-block; vertical-align: middle;}
+.cs-agent-detail .cs-admin-info .cs-text .cs-title a {display:inline-block; background-color:#6fba17; font-size:9px; color:#fff; text-transform:uppercase; text-decoration:none; outline:none; border-radius:20px; line-height:14px; padding:4px 5px; font-weight:700;}
+.cs-agent-detail .cs-admin-info .cs-text .cs-title a i {float: left; font-size: 14px; margin: 0 2px 0 0;}
+.cs-agent-detail .cs-admin-info .cs-text address {font-style:normal; color:#353535; margin:0 0 20px;}
+.cs-agent-detail .cs-admin-info .cs-text ul {margin:0; padding:0;}
+.cs-agent-detail .cs-admin-info .cs-text ul li {list-style:none; display:inline-block; vertical-align:middle; color:#353535; line-height:normal; border-left:1px solid #f0f0f0; padding:0 0 0px 20px; margin:0px 0 0 20px; position:relative; padding-bottom:15px; margin-bottom:-15px;}
+.cs-agent-detail .cs-admin-info .cs-text ul li:first-child {border-left:none; padding-left: 0; margin-left:0;}
+.cs-agent-detail .cs-admin-info .cs-text ul li a {color:#353535; text-decoration:none; outline:none;}
+.cs-agent-detail .cs-admin-info .cs-text ul li span {display:block; font-size:10px; color:#999; text-transform:uppercase; margin:0 0 5px;}
+.cs-agent-detail .cs-post-option ul {margin:0; padding:0;}
+.cs-agent-detail .cs-post-option li {list-style:none; font-size:13px; color:#353535; font-weight:400; line-height:normal; margin:0; position:relative; padding-bottom:15px; margin-bottom:-15px;}
+.cs-agent-detail .cs-post-option li span {font-weight:700;}
+.cs-agent-detail .cs-post-option li i {color:#cbcbcb; margin:0 8px 0 0; vertical-align:middle;}
+.cs-agent-detail .cs-post-option li span i {font-size: 24px; margin:0 0 0 8px;}
+.cs-agent-detail .cs-social-media ul {margin:0; padding:0;}
+.cs-agent-detail .cs-social-media li {list-style:none; display:inline-block; line-height:normal; margin:0 0 0 10px;}
+.cs-agent-detail .cs-social-media li a {color:#bdbec1; text-decoration:none; outline:none;}
+.cs-agent-detail .cs-social-media li a:hover {color:#242931;}
+.cs-agent-detail .cs-detail-slider {margin:0 -3.666% 25px -50%; padding:0; overflow:hidden; position:relative;}
+.cs-agent-detail .cs-detail-slider li{list-style:none; float:left;cursor:move; margin:0;}
+.cs-agent-detail .cs-detail-slider li img {width:100%;}
+.cs-agent-detail .cs-detail-slider button {text-indent:-9999px; position:absolute; border:none; background:none; left:20px; top:50%; width: 30px; font-size:36px; color:#fff; margin:-10px 0 0;}
+.cs-agent-detail .cs-detail-slider button.slick-next {right:20px; left:auto;}
+.cs-agent-detail .cs-detail-slider button:before {position:absolute; left:0; content:"\e314"; font-family: "icomoon"; text-indent:0px;}
+.cs-agent-detail .cs-detail-slider button.slick-next:before {right:0; left:auto; content:"\e315";}
+.cs-agent-detail .rich_editor_text strong {font-size:14.1px; text-transform:uppercase; color:#333; display:block; margin:0 0 10px;}
+.cs-agent-detail .rich_editor_text p {letter-spacing: 0.3px; margin: 0 0 20px;}
+.cs-agent-detail .cs-tabs-holder {position:relative; top:-230px;}
+.cs-agent-detail .cs-location-tabs {box-shadow:0 0 3px rgba(0,0,0,0.1); margin:0 0 20px;}
+.cs-agent-detail .cs-location-tabs .nav-tabs {border:none;}
+.cs-agent-detail .cs-location-tabs .nav-tabs li {width:50%; margin:0 0 -1px; border-bottom:1px solid #eee; border-left:2px solid #f6f6f6; text-align:center;}
+.cs-agent-detail .cs-location-tabs .nav-tabs li.active {border-bottom:none;}
+.cs-agent-detail .cs-location-tabs .nav-tabs li.active:first-child {border-left:none;}
+.cs-agent-detail .cs-location-tabs .nav-tabs li a {font-size:12px; font-weight:700; color:#999;}
+.cs-agent-detail .cs-location-tabs .nav-tabs li a i {margin:0 5px 0 0;}
+.cs-agent-detail .cs-location-tabs .nav-tabs > li > a,
+.cs-agent-detail .cs-location-tabs .nav-tabs > li.active > a, 
+.cs-agent-detail .cs-location-tabs .nav-tabs > li.active > a:hover, 
+.cs-agent-detail .cs-location-tabs .nav-tabs > li.active > a:focus {border:none; border-radius:0; outline:none; text-decoration:none; width:100%; background:#fff;}
+.cs-agent-detail .cs-location-tabs .tab-content {padding:10px 10px 5px; background-color:#fff;}
+.cs-agent-detail .cs-agent-contact-form {background-color:#edf0f5; border-radius:3px; margin:0 0 20px;}
+.cs-agent-detail .cs-agent-contact-form .cs-form-title {background-color:#242931; font-size:12px; text-transform:uppercase; font-weight:700; display:block; color: #fff; padding:8px 20px; border-radius:3px 3px 0 0;}
+.cs-agent-detail .cs-agent-contact-form form {padding:20px;}
+.cs-agent-detail .cs-agent-contact-form input[type="text"],
+.cs-agent-detail .cs-agent-contact-form input[type="email"] {border-color:#dfdfdf; margin:0 0 15px;}
+.cs-agent-detail .cs-agent-contact-form textarea {height:125px; margin:0 0 15px;}
+.cs-agent-detail .cs-agent-contact-form input[type="submit"] {width:100%; color:#fff; font-size:12px; font-weight:700; min-height:38px; border:none; border-radius:3px; text-transform:uppercase;}
+/* Post Option Children Style */
+.cs-agent-detail .cs-post-option li .cs-timeline-list,
+.cs-agent-detail .cs-admin-info .cs-text ul li ul {background-color: #fff; box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); left: 50%; min-width: 250px; padding: 0; position: absolute; top: 100%; width: 100%; z-index: 1; margin: 0 0 0 -22px; border-radius:2px; visibility:hidden; opacity:0; -moz-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out;-webkit-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;transform:translateY(20px);}
+.cs-agent-detail .cs-timeline-list:after, 
+.cs-agent-detail .cs-timeline-list:before,
+.cs-agent-detail .cs-admin-info .cs-text ul li ul:before,
+.cs-agent-detail .cs-admin-info .cs-text ul li ul:after {bottom: 100%; left: 50%; border: solid transparent; content: " "; height: 0; width: 0; position:absolute; pointer-events: none;}
+.cs-agent-detail .cs-timeline-list:after,
+.cs-agent-detail .cs-admin-info .cs-text ul li ul:after {border-color: rgba(136, 183, 213, 0);	border-bottom-color: #fff; border-width: 10px;	margin-left: -10px;}
+.cs-agent-detail .cs-timeline-list:before,
+.cs-agent-detail .cs-admin-info .cs-text ul li ul:before {border-color: rgba(194, 225, 245, 0); border-bottom-color: #e9e9e9; border-width: 10px; margin-left: -10px; top: -22px; bottom: auto;}
+.cs-agent-detail .cs-timeline-list li {border-bottom:1px solid #eee; padding:12px 20px;}
+.cs-agent-detail .cs-post-option li .cs-timeline-list li span {font-size:13px; float:right;}
+.cs-agent-detail .cs-admin-info .cs-text ul li ul:before,
+.cs-agent-detail .cs-admin-info .cs-text ul li ul:after {left:40px;}
+
+.cs-agent-detail .cs-post-option li:hover .cs-timeline-list,
+.cs-agent-detail .cs-admin-info .cs-text ul li:hover ul {visibility:visible; opacity:1; -moz-transform:translateY(0px); -ms-transform:translateY(0px); -o-transform:translateY(0px); -webkit-transform:translateY(0px); transform:translateY(0px);}
+/* Post Option Children Style End */
+
+/* Admin Info List Style Style */
+.cs-agent-detail .cs-admin-info .cs-text ul li ul {min-width: 205px; z-index:2; margin-left:0;}
+.cs-agent-detail .cs-admin-info .cs-text ul li ul li {width:100%; border-left:none; border-bottom:1px solid #eee; padding: 12px 20px;}
+.cs-agent-detail .cs-admin-info .cs-text ul li ul li:first-child {padding-left:20px;}
+/* Admin Info List Style End */
+
+/* Loader Style */
+.cs-agent-map.loader {background: #fff url(assets/images/spin-load.gif) no-repeat scroll center center;height: 355px;width: 100%;overflow:hidden;}
+/* Agent Detail End */
+/* Compare Style */
+.wp-automobile .cs-compare {margin:0 0 100px;}
+.wp-automobile .cs-compare ul {margin:0; padding:0;}
+.wp-automobile .cs-compare li {list-style:none; margin:0;}
+.wp-automobile .cs-compare li:first-child {margin:0 0 -20px;}
+.wp-automobile .cs-compare li:first-child .cs-compare-box{border-top:1px solid #f1f1f1; vertical-align:middle; padding:25px;}
+.wp-automobile .cs-compare li:last-child .cs-compare-box {border-bottom:1px solid #f1f1f1;}
+.wp-automobile .cs-compare li:last-child .cs-compare-box:nth-child(1) {border:none;}
+.wp-automobile .cs-compare li:first-child .cs-compare-box:nth-child(1){border:none; padding:0 !important;}
+.wp-automobile .cs-compare li .cs-compare-box {display:inline-block; margin:0 -4px 0 0; width:25%; padding:10px 25px; vertical-align:top;}
+.wp-automobile .cs-compare li .cs-compare-box:nth-child(2){ border-left:1px solid #f1f1f1;}
+.wp-automobile .cs-compare li .cs-compare-box:nth-child(3) {border-left:1px solid #f1f1f1; border-right:1px solid #f1f1f1; vertical-align: top;}
+.wp-automobile .cs-compare li .cs-compare-box:nth-child(4) {border-right:1px solid #f1f1f1;}
+.wp-automobile .cs-compare li:nth-child(odd) {background-color:#fafafa;}
+.wp-automobile .cs-compare li:nth-child(even) {background-color:#fff;}
+.wp-automobile .cs-compare li:nth-child(2), .wp-automobile .cs-compare li:nth-child(1) {background-color:inherit;}
+.wp-automobile .cs-compare li:nth-child(2) .cs-compare-box {vertical-align:middle;}
+.wp-automobile .cs-compare li:nth-child(2) .cs-compare-box:nth-child(1) {padding-top:0;}
+.wp-automobile .cs-compare li:nth-child(1) .cs-compare-box {padding:25px !important;}
+.wp-automobile .cs-compare li:nth-child(odd) .cs-compare-box {padding:5px 25px;}
+.wp-automobile .cs-compare li .cs-compare-box .cs-media a {text-decoration:none; outline:none;}
+.wp-automobile .cs-compare li .cs-compare-box .cs-media img {width:100%; -moz-transition: all 0.3s ease-in-out;	-ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; position:relative; z-index:2;}
+.wp-automobile .cs-compare li .cs-compare-box figcaption {position:absolute; left:0; top:0; height:100%; width:100%; text-align:center;}
+.wp-automobile .cs-compare li .cs-compare-box figcaption a {border-radius: 100%; color: #fff; font-size: 16px; height: 32px; left: 50%; line-height: 33px; margin: -50px 0 0 -16px; position: absolute; top: 50%; text-decoration:none; outline:none; width: 32px; opacity:0; visibility:hidden; z-index:5;}
+.wp-automobile .cs-compare li .cs-compare-box .cs-media:hover figcaption a {opacity:1; visibility:visible; margin: -16px 0 0 -16px;}
+.wp-automobile .cs-compare li .cs-compare-box .cs-media:hover img {opacity:0.5;}
+.wp-automobile .cs-compare li .cs-compare-box {position:relative;}
+.wp-automobile .cs-compare li .cs-compare-box .cs-vs {font-size:9px; color:#fff; font-weight:700; text-transform:uppercase; line-height:25px; text-align:center; position:absolute; right:-12px; top: 50%; z-index:1; height:25px; height:25px; background-color:#3d444e; border-radius:100%; margin:-12px 0 0; width:25px;}
+.wp-automobile .cs-compare li .cs-compare-box .cs-post-title {padding:0 0 6px 0;}
+.wp-automobile .cs-compare li .cs-compare-box .cs-post-title h6 {text-transform:uppercase; margin:0;}
+.wp-automobile .cs-compare li .cs-compare-box .cs-post-title h6 a {text-transform:uppercase !important; text-decoration:none; outline:none;}
+.wp-automobile .cs-compare li .cs-compare-box p.label,
+.wp-automobile .cs-compare li .cs-compare-box small.label {color:#333; font-size:16px; text-transform:uppercase; font-weight:700; padding:0; margin:0;}
+.wp-automobile .cs-compare li .cs-compare-box .cs-price {padding:0 0 15px;}
+.wp-automobile .cs-compare li .cs-compare-box .cs-price strong {font-size:18px;}
+.wp-automobile .cs-compare li .cs-compare-box .cs-price em {font-style:normal; font-size:11px; color:#999; text-transform:uppercase; font-weight:700;}
+.wp-automobile .cs-compare li .cs-compare-box small.label {font-size:12px;}
+.wp-automobile .cs-compare li .cs-compare-box span {font-size:13px; color:#999;}
+.wp-automobile .cs-compare li .cs-compare-box li {background-color:inherit; position:relative; padding:0 0 5px 15px; font-size:13px; color:#333;}
+.wp-automobile .cs-compare li .cs-compare-box li:before {position:absolute; left:0; top:13px; height:5px; border-radius:100%; width:5px; content:"";}
+.wp-automobile .cs-compare li.cs-compare-sec-title {background-color:inherit;}
+.wp-automobile .cs-compare li.cs-compare-sec-title .cs-compare-box {min-height: 70px;}
+.wp-automobile .cs-compare li.cs-compare-sec-title .cs-compare-box h6 {margin:15px 0 0; text-transform:uppercase !important; font-size:16px !important;}
+.wp-automobile .cs-compare li .cs-view-btn {color: #fff; display: inline-block; font-size: 11px; font-weight: 700; line-height: 15px; margin: 15px 0; padding: 8px 15px; text-transform: uppercase; text-decoration:none; outline:none;}
+/* Compare Style End */
+/*===========================
+  Auto Listing Style Start
+=============================*/
+/* Auto Sort Filter Style */
+.wp-automobile a{text-decoration: none; outline: none;}
+.wp-automobile .auto-sort-filter{padding-bottom: 20px; border-bottom: 2px solid #f2f2f2; display: inline-block; width: 100%; margin-bottom: 15px;}
+.wp-automobile .auto-sort-filter .auto-show-resuilt{ display: inline-block; float: left; margin-top:1px;}
+.wp-automobile .auto-sort-filter .auto-show-resuilt span{display: inline-block; background-color: #f8f8f8; font-size: 12px; font-weight: bold; color: #999; text-transform: uppercase; padding: 3px 12px; letter-spacing: 1px;}
+.wp-automobile .auto-sort-filter .auto-show-resuilt span em{font-weight: 400; color: #282828; font-style: normal;}
+.wp-automobile .auto-sort-filter .auto-list{float: right;}
+.wp-automobile .auto-sort-filter .auto-list span{display: inline-block; vertical-align: middle; font-size: 14px; color: #222222; font-weight: 400; margin-right: 8px;}
+.wp-automobile .auto-sort-filter .auto-list ul{margin: 0px; padding: 0px; display: inline-block;}
+.wp-automobile .auto-sort-filter .auto-list ul li{display: inline-block; vertical-align: middle; list-style: none;}
+.wp-automobile .auto-sort-filter a{text-decoration: none; outline: none;}
+.wp-automobile .auto-sort-filter .cs-select-post{width: 198px; position: relative;}
+.wp-automobile .auto-sort-filter .chosen-container.chosen-container-single{position: relative;}
+.wp-automobile .auto-sort-filter .chosen-container.chosen-container-single:after{content: "\e5c5"; position: absolute; right: 10px; top: 0px; font-size: 24px; color: #bfbfbf; font-family: "icomoon"; cursor: pointer;}
+.wp-automobile .auto-sort-filter .cs-select-post:before{content: "\e0c7"; position: absolute; left: 7px; top:2px; font-size: 20px; color: #bdbdbd; font-family: "icomoon"; z-index: 1;}
+.wp-automobile .auto-sort-filter .cs-select-post .chosen-container-single .chosen-single{height: 30px; line-height: 30px; background-color: #f8f8f8; background-image: none; border:none; border-radius: 0px; padding: 0 0 0 35px; box-shadow: none;}
+.wp-automobile .auto-sort-filter .cs-select-post .chosen-container-single .chosen-single span{font-size: 12px; color: #999; display: block;}
+.wp-automobile .auto-sort-filter .auto-list ul li a i{font-size: 30px; line-height: 30px; display: block; margin-left: 18px; color: #999999;}
+.wp-automobile .auto-sort-filter .chosen-container .chosen-results, .wp-automobile .auto-sort-filter .chosen-container .chosen-results li{width: 100%;}
+.wp-automobile .auto-sort-filter .chosen-container-single .chosen-drop{border-color:#f8f8f8; box-shadow: none; border-radius: 0px; background-color:#f8f8f8;}
+.wp-automobile .auto-sort-filter .chosen-container .chosen-results{color: #999;}
+.wp-automobile .auto-sort-filter .chosen-container .chosen-results li{padding: 4px 6px 6px 6px;}
+/* Auto Sort Filter Style */
+ .wp-automobile .auto-your-search{margin-bottom: 30px;}
+ .wp-automobile .auto-your-search .filtration-tags{display: inline-block; margin:0px; padding: 0px;}
+ .wp-automobile .auto-your-search .filtration-tags li{list-style: none; vertical-align: middle; display: inline-block; margin-right: 12px;}
+ .wp-automobile .auto-your-search .filtration-tags li a{font-size: 11px; color: #999; line-height: 22px; font-weight: bold; display: block; text-transform: uppercase; text-decoration: none; position: relative;}
+ .wp-automobile .auto-your-search .filtration-tags li a:before{content: ""; position: absolute; left:0px; bottom: 0px; width: 80%; height: 1px; border-bottom: 1px solid #e3e3e3; }
+ .wp-automobile .auto-your-search .filtration-tags li a i{display: inline-block; vertical-align: middle; color: #cccccc; margin-left: 6px;}
+ .wp-automobile .auto-your-search .clear-tags{display: inline-block; vertical-align: middle; font-size: 11px; font-weight: bold; text-decoration: none; text-transform: uppercase; line-height: 22px;}
+/* Auto Sort Filter Style */
+/* Auto Listing Style Start */
+.wp-automobile .auto-listing .post-title h4, .wp-automobile .auto-listing .post-title h4 a,
+.wp-automobile .auto-listing .post-title h3, .wp-automobile .auto-listing .post-title h3 a,
+.wp-automobile .auto-listing .post-title h2, .wp-automobile .auto-listing .post-title h2 a,
+.wp-automobile .auto-listing .post-title h5, .wp-automobile .auto-listing .post-title h5 a,
+.wp-automobile .auto-listing .post-title h6, .wp-automobile .auto-listing .post-title h6 a{text-transform: uppercase !important;}
+.wp-automobile .auto-listing:after{content: ""; display: block; clear: both;}
+.wp-automobile .auto-listing{padding-bottom: 30px; margin-bottom: 30px; border-bottom: 1px solid #f2f2f2;}
+.wp-automobile .auto-listing .auto-text{overflow: hidden;}
+.wp-automobile .auto-listing .cs-media{float: left; margin-right: 30px; width:270px;}
+.wp-automobile .auto-listing .cs-media figure{position: relative;}
+/* Auto Media Slider */
+.wp-automobile .auto-listing .cs-media.auto-media-slider{width: 270px; position: relative;}
+.wp-automobile .auto-listing .cs-media.auto-media-slider .draggable{overflow: hidden;}
+.wp-automobile .auto-listing .cs-media.auto-media-slider figure{float: left; width: 100%; list-style: none; cursor:move;}
+.wp-automobile .auto-listing .cs-media.auto-media-slider button{position: absolute; bottom: 0px; width: 20px; height: 16px; background:none; border:none; text-indent: -9999px;}
+.wp-automobile .auto-listing .cs-media.auto-media-slider .slick-prev{left: 15px; bottom: 15px;}
+.wp-automobile .auto-listing .cs-media.auto-media-slider .slick-next{right: 15px; bottom: 15px;}
+.wp-automobile .auto-listing .cs-media.auto-media-slider .slick-next:before{content: "\e93b"; position: absolute; right: 0px; top: 0px; font-size: 14px; color: #f8f8f8; text-indent: 0px; font-family: "icomoon";}
+.wp-automobile .auto-listing .cs-media.auto-media-slider .slick-prev:before{content: "\e93a"; position: absolute; left: 0px; top: 0px; font-size: 14px; color: #f8f8f8; text-indent: 0px; font-family: "icomoon";}
+/* Auto Media Slider */
+.wp-automobile .auto-listing .cs-media figure figcaption .cs-photo{position: absolute; left: 50%; bottom:10px; color: #fff; font-size: 11px; font-weight: bold; text-transform: uppercase; display: inline-block; margin-left: -26px;}
+.wp-automobile .auto-listing .cs-media figure figcaption .play-btn{float: right; width: 22px; height: 22px; line-height: 22px; border-radius: 100%; background-color: rgba(208,0,0,0.5); text-align: center; margin: 15px 15px 0 0;}
+ .auto-listing .cs-media figure figcaption .play-btn i{padding-left: 2px; color: #fff;}
+.wp-automobile .auto-listing .cs-media figure figcaption{position: absolute; left: 0px; top: 0; width: 100%; height: 100%;}
+.wp-automobile .auto-listing .cs-media figure figcaption .auto-featured{margin: 15px 0 0 15px;}
+.wp-automobile .auto-listing .auto-featured{font-size: 10px; font-weight: bold; color: #fff; text-transform: uppercase; display: inline-block; background-color:#000; padding: 0 10px;}
+.wp-automobile .auto-listing .auto-price{margin-bottom: 20px;display: block;float: none;}
+.wp-automobile .auto-listing .cs-media figure img{width: 100%;}
+.wp-automobile .auto-listing .auto-price span{font-size: 18px; font-weight: bold; line-height: 24px;}
+.wp-automobile .auto-listing .auto-price em{font-size: 11px; font-weight: bold; color: #999; font-style: normal; margin-left: 5px;}
+.wp-automobile .auto-listing .auto-info-detail{margin: 0px 0 15px 0; padding: 0px;}
+.wp-automobile .auto-listing .auto-info-detail li{display: inline-block; margin: 0 -4px 0 0; font-size: 11px; color: #999; text-transform: uppercase; padding: 0 18px; line-height: 1; position: relative;}
+.wp-automobile .auto-listing .auto-info-detail li span{display: block; font-size: 16px; font-weight: bold; color: #363636; line-height: 32px; text-transform: capitalize;}
+.wp-automobile .auto-listing .auto-info-detail li:first-child{padding-left: 0px; border-left: none;}
+.wp-automobile .auto-listing .auto-info-detail li:before{content: ""; position: absolute; left: 0px; top: 0; width: 1px; height: 36px; border-left: 1px solid #e2e4e9;}
+.wp-automobile .auto-listing .auto-info-detail li:first-child:before{display: none;}
+.wp-automobile .auto-listing .post-title {position: relative; padding-top: 6px; padding-right:95px;}
+.wp-automobile .auto-listing.auto-grid .post-title{ padding-right:0;}
+.wp-automobile .auto-listing .post-title img{position: absolute; right: 0px; top: 6px; padding: 6px 10px; border:1px solid #ededed; border-radius: 2px;}
+.wp-automobile .auto-listing .cs-checkbox{display: inline-block; margin-right: 14px;}
+.wp-automobile .auto-listing .cs-checkbox input[type="checkbox"]{display: none;}
+.wp-automobile .auto-listing .cs-checkbox label{font-size: 12px; font-weight: bold; margin-bottom: 0px; color: #999; text-transform: uppercase; padding-left: 20px;position: relative; line-height: 18px; cursor: pointer;}
+.wp-automobile .auto-listing .cs-checkbox label:before{content: ""; position: absolute; left: 0px; top: 2px; width: 12px; height: 12px; display: inline-block; background-color: #fff; border:1px solid #999999;}
+.wp-automobile .auto-listing .cs-checkbox input[type="checkbox"]:checked + label:after{color: #ccc;content: "\2713"; font-size: 14px;left: 2px; position: absolute; top: -3px;}
+.wp-automobile .auto-listing .short-list{font-size: 12px; font-weight: bold; text-transform: uppercase;}
+.wp-automobile .auto-listing .short-list i{display: inline-block; font-size: 13px; margin-right: 6px; vertical-align: middle;}
+.wp-automobile .auto-listing .auto-text{position: relative;}
+.wp-automobile .auto-listing .auto-text .btn-list{position: relative;}
+.wp-automobile .auto-listing .auto-text .btn-list .btn{background-image: none; padding: 0px; border: none; box-shadow: none; text-shadow:none; position:absolute;top: -56px; right: 28%;}
+.wp-automobile .auto-listing .auto-text .btn-list ul {margin: 0 0 10px 0;}
+.wp-automobile .auto-listing .auto-text .btn-list .btn.collapsed:after{content: "\ea1b"; position: absolute; left: 0px; top: 0; font-size: 16px; font-family: "icomoon"; font-weight: normal; }
+.wp-automobile .auto-listing .auto-text .btn-list .btn:after{content: "\e9b1"; position: absolute; left: 0px; top: 0; font-size: 16px; font-family: "icomoon"; font-weight: normal; }
+.wp-automobile .auto-listing .auto-text .btn-list ul li{list-style: none; position: relative; padding-left: 18px; line-height: 28px;}
+.wp-automobile .auto-listing .auto-text .btn-list ul li:before{content: ""; position: absolute; left: 0px; top: 10px; width: 5px; height: 5px; border-radius: 100%;}
+.wp-automobile .auto-listing .auto-text .read-more{font-size: 12px; font-weight: 400; margin-left: 5px;}
+.wp-automobile .auto-listing .cs-categories a{display: inline-block; font-size: 11px; font-weight: bold; text-transform: uppercase; color: #999;}
+.wp-automobile .auto-listing .View-btn{display: inline-block; font-size: 11px; color: #333; font-weight: bold; text-transform: uppercase; display:none;}
+.wp-automobile .auto-listing .View-btn i{display: inline-block; margin-left: 5px; color: #bfbfbf; vertical-align: middle; font-size: 13px;}
+.wp-automobile .auto-listing .auto-text .cs-categories {display: none;}
+.wp-automobile .auto-listing .post-title > h4 {display: block;}
+.wp-automobile .auto-listing .post-title > h6 {display: none;}
+/* Auto Listing Style End */
+/* Auto Listing Grid Style Start */
+.wp-automobile .auto-listing.auto-grid .post-title h6, .wp-automobile .auto-listing.auto-grid .post-title h6 a{line-height: 24px !important;}
+.wp-automobile .auto-grid .post-title > a {display: none;}
+.wp-automobile .auto-listing.auto-grid .short-list{display:none;}
+.wp-automobile .auto-listing.auto-grid .auto-text .cs-categories {display: block;}
+.wp-automobile .auto-grid .auto-info-detail {display: none;}
+.wp-automobile .auto-grid .auto-text > p {display: none;}
+.wp-automobile .auto-listing.auto-grid .View-btn{display: inline-block; font-size: 11px; color: #333; font-weight: bold; text-transform: uppercase; display:block;}
+.wp-automobile .auto-listing.auto-grid{border:1px solid #ebebeb; padding: 0px;}
+.wp-automobile .auto-listing.auto-grid .cs-media{margin: 0px;width:100%;}
+.wp-automobile .auto-listing.auto-grid .cs-media.auto-media-slider{width: 100%;}
+.wp-automobile .auto-listing.auto-grid .auto-text{float: left; width: 100%; padding: 18px;}
+.wp-automobile .auto-listing.auto-grid .auto-text .btn-list ul li{line-height: 24px;}
+.wp-automobile .auto-listing.auto-grid .auto-text .btn-list .btn{right: 18px; top:-100px;}
+.wp-automobile .auto-listing.auto-grid .View-btn{float: right; margin-top: 3px; line-height: 20px;}
+.wp-automobile .auto-listing.auto-grid{margin-bottom: 30px;}
+.wp-automobile .auto-listing.auto-grid .post-title > h4 {display: none;}
+.wp-automobile .auto-listing.auto-grid .post-title > h6 {display: block; width: 92%;}
+/* Auto Listing Grid Style End */
+/*===========================
+  Auto Listing Style End
+=============================*/
+
+/* Pagination Style Start */
+.wp-automobile .pagination{margin: 0px 0 20px 0; padding: 0px;}
+.wp-automobile .pagination li{padding: 0px; margin: 0px;}
+.wp-automobile .pagination li:first-child a{margin-left: 0px;}
+.wp-automobile .pagination li a:hover, .wp-automobile .pagination li a.active{color: #fff;}
+.wp-automobile .pagination li a{border:none; margin-left: 10px; background-color: #f8f8f8; text-align: center; padding: 8px 14px; color: #999; font-size: 12px; font-weight: bold; border-radius: 2px;} 
+/* Pagination Style End */
+/* CS Listing Filters Style Start */
+.wp-automobile .cs-listing-filters{}
+.wp-automobile .cs-listing-filters .chosen-container-active .chosen-single{box-shadow: none;}
+.wp-automobile .cs-listing-filters .chosen-container .chosen-results{padding: 0px; margin: 0px;}
+.wp-automobile .cs-listing-filters .chosen-container-single .chosen-drop{box-shadow: none; border-radius: 0px;}
+/* Accordion Style End */
+/* Cs Search Form Style Start */
+.wp-automobile .cs-listing-filters .cs-search{margin-bottom: 15px;}
+.wp-automobile .cs-listing-filters .cs-search .search-form .loction-search{display: block; position: relative; margin-bottom: 5px;}
+.wp-automobile .cs-listing-filters .cs-search .search-form .loction-search:before{content: "\eb28"; position: absolute; left: 16px; top: 10px;font-size: 16px; font-family: "icomoon";}
+.wp-automobile .cs-listing-filters .cs-search .search-form .loction-search input[type="text"]{font-size: 12px; font-weight: bold; text-transform: uppercase; height: 42px; border-radius: 0px; border-color: #ededed; padding-left: 40px; letter-spacing: 1px; letter-spacing: 1px;}
+.wp-automobile .cs-listing-filters .cs-search .search-form .loction-search a{position: absolute; right:  14px; top: 10px; font-size: 13px;}
+.wp-automobile .cs-listing-filters .cs-search .search-form .select-input{position: relative; margin-bottom: 5px;}
+.wp-automobile .cs-listing-filters .cs-search .search-form .select-input .chosen-container-single .chosen-single{ padding-left:40px; border:1px solid #ededed; height: 42px; line-height: 42px; border-radius: 0px; box-shadow: none; background-color: #fff; background-image: none; text-transform: uppercase; font-size: 12px; font-weight: bold; letter-spacing: 1px;}
+.wp-automobile .cs-listing-filters .cs-search .search-form .select-input:before{content: "\ec4e"; position: absolute; left: 16px; top: 11px; font-size: 14px; color: #ccc; font-family: "icomoon"; z-index: 1;}
+.wp-automobile .cs-listing-filters .cs-search .search-form .select-input .chosen-container-single .chosen-single:after{content: "\f107"; position: absolute; right: 16px; top: 0px; font-size: 14px; font-family: "icomoon";}
+.wp-automobile .cs-listing-filters .cs-search .search-form .chosen-container .chosen-drop{box-shadow: none; border-radius: 0px; border-color:#ededed; }
+.wp-automobile .cs-listing-filters .cs-search .search-form .chosen-container .chosen-results li{padding: 7px 10px 9px 10px;}
+.wp-automobile .cs-listing-filters .cs-search .search-form .chosen-container .chosen-results{margin: 0px; padding: 0px;}
+/* Cs Search Form Style End*/
+/* Cs Check Box List Style Start */
+.wp-automobile .cs-listing-filters .cs-filter-title h6{font-size: 12px !important; text-transform: uppercase !important;}
+.wp-automobile .cs-listing-filters .cs-select-model{padding: 0px 0 10px 0; margin: 0px 0 15px 0; border-bottom: 1px solid #f2f2f2;}
+.wp-automobile .cs-listing-filters .cs-select-model .cs-checkbox-list{height: 222px;}
+.wp-automobile .cs-listing-filters .cs-checkbox-list{padding: 0px 0 0px 0; margin: 0px 0 0px 0;}
+.wp-automobile .cs-listing-filters .cs-checkbox-list li{list-style: none; padding: 0 0 5px 0;}
+.wp-automobile .cs-listing-filters .cs-checkbox-list li input[type="checkbox"]{display: none;}
+.wp-automobile .cs-listing-filters .cs-checkbox-list li label{padding-left: 27px; position: relative; line-height: 24px; font-size: 11px; font-weight:bold; color: #363636; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0px;}
+.wp-automobile .cs-listing-filters .cs-checkbox-list li label:before{content: ""; position: absolute; left: 0px; top: 6px; width: 12px; height: 12px; border:1px solid #dcdcdc;}
+.wp-automobile .cs-listing-filters .cs-checkbox-list li .checkbox{margin: 0px; padding: 0px; line-height: 20px;}
+.wp-automobile .cs-listing-filters .cs-checkbox-list li span{float: right; color: #acacac; font-size: 11px;}
+.wp-automobile .cs-listing-filters .cs-checkbox-list li input[type="checkbox"]:checked + label:after{color: #ccc;content: "\2713"; font-size: 14px;left: 2px; position: absolute; top: -3px; }
+.wp-automobile .cs-listing-filters .mCSB_scrollTools .mCSB_draggerRail{width: 5px; background-color: #e9e9e9;}
+/* Cs Check Box List Style End */
+/* Accordion Style Start */
+.wp-automobile .cs-listing-filters .panel{box-shadow: none; border:none; border-radius: 0px;}
+.wp-automobile .cs-listing-filters .panel-default > .panel-heading{background-image: none; background:none; border: none; padding: 0px;}
+.wp-automobile .cs-listing-filters .panel-group .panel-heading + .panel-collapse > .panel-body, .wp-automobile .cs-listing-filters .panel-group .panel-heading + .panel-collapse > .list-group{border:none;}
+.wp-automobile .cs-listing-filters .panel-default .panel-heading a{display: block; font-size: 12px; font-weight: bold; text-transform: uppercase; position: relative;}
+.wp-automobile .cs-listing-filters .panel-default .panel-heading a:before{content: "\e945"; position: absolute; right: 0px; top: 0px; font-size: 13px; color: #b9b9b9; font-family: "icomoon";}
+.wp-automobile .cs-listing-filters .panel-default .panel-heading a.collapsed:before{content: "\e947";}
+.wp-automobile .cs-listing-filters .panel-body{padding: 10px 0 0 0;}
+/* Accordion Style End */
+/* Cs Model Year Style Start */
+.wp-automobile .cs-listing-filters .cs-model-year .cs-select-filed{ width: 42%; display: inline-block; vertical-align: middle;}
+.wp-automobile .cs-listing-filters .cs-model-year span{font-size: 11px; font-weight: bold; color: #b9b9b9; text-transform: uppercase; padding: 0 8px;}
+.wp-automobile .cs-listing-filters .cs-model-year .cs-select-filed .chosen-container-single .chosen-single{height: 36px; line-height: 36px; border: none; background-color: #f8f8f8; padding-left: 14px;}
+.wp-automobile .cs-listing-filters .cs-model-year .cs-select-filed .chosen-container-single .chosen-single:after {content: "\f0d7";font-family: "icomoon";font-size: 14px;position: absolute;right: 16px;top: 0;color:#bfbfbf;}
+
+
+.wp-automobile .cs-listing-filters .cs-model-year .cs-select-filed .chosen-container-single .chosen-single span{font-size: 12px; color: #666666; padding: 0 0 0 0;}
+.wp-automobile .cs-listing-filters .cs-model-year .cs-select-filed .chosen-container-single .chosen-drop{border-color: #f4f4f4;}
+.wp-automobile .cs-listing-filters .panel{padding-bottom: 16px; border-bottom: 1px solid #f2f2f2; margin-bottom: 15px;}
+/* Cs Model Year Style End */
+/* Cs Carbody Style Start */
+.wp-automobile .cs-listing-filters .cs-carbody-style .cs-checkbox-list li{width: 50%; float: left; margin: 0 0 -1px -1px; padding: 0px;}
+.wp-automobile .cs-listing-filters .cs-carbody-style .cs-checkbox-list li label{padding: 15px 5px; text-align: center; width: 100%; border:1px solid #f5f5f5; margin: 0 -4px 0px 0;}
+.wp-automobile .cs-listing-filters .cs-carbody-style .cs-checkbox-list li label span{float: none; display: block; color: #363636; line-height: 16px; font-size: 11px;}
+.wp-automobile .cs-listing-filters .cs-carbody-style .cs-checkbox-list li label:before{display: none;}
+.wp-automobile .cs-listing-filters .cs-carbody-style .cs-checkbox-list li label img{margin-bottom: 5px;}
+.wp-automobile .cs-listing-filters .cs-carbody-style .cs-checkbox-list li input[type="checkbox"]:checked + label:after{content: ""; border:1px solid; width: 100%; height: 100%; left:0px;}
+/* Cs Carbody Style End */
+/* Cs Select Range Style Start */
+.wp-automobile .cs-listing-filters .slider.slider-horizontal{width: 100%; height: 10px; margin-bottom: 10px;}
+.wp-automobile .cs-listing-filters .slider-track{background-color: #f8f8f8; background-image: none; box-shadow: none; border-radius: 4px;}
+.wp-automobile .cs-listing-filters .slider-selection{box-shadow: none; background-color: #777777; background-image: none;}
+.wp-automobile .cs-listing-filters .slider-handle{background-image: none; width: 17px; height: 17px; box-shadow:0 1px 4px rgba(0,0,0,0.5);}
+.wp-automobile .cs-listing-filters .slider.slider-horizontal .slider-tick, .wp-automobile .cs-listing-filters .slider.slider-horizontal .slider-handle{margin-top: -4px;}
+.wp-automobile .cs-listing-filters .slider-handle:before{content: "|||"; position: absolute; left: 4px; top:-4px; letter-spacing: 1px; height: 5px; width: 1px; font-size: 8px; color:#fff;}
+.wp-automobile .cs-listing-filters .cs-price-range .selector-value span{font-size: 11px; font-weight: bold; color: #000;}
+.wp-automobile .cs-listing-filters .cs-engine-capacity .selector-value span{font-size: 11px; font-weight: bold; color: #363636;}
+/* Cs Select Range Style End */
+/* Cs Feature Listed Car Style End */
+/*Banner Slider Style Start*/
+.single-page .cs-banner{position:relative;}
+.single-page .cs-banner ul.cs-banner-slider{margin:0;padding:0;overflow:hidden;}
+.single-page .cs-banner ul.cs-banner-slider li{margin:0;padding:0;list-style:none;display:inline-block;width:100%;}
+.single-page .cs-banner ul.cs-banner-slider li .cs-media figure img{background: #fff url(assets/images/spin-load.gif) no-repeat scroll center center;width: 100%;}
+.single-page .cs-banner ul.cs-banner-slider .slick-prev::before {color: #fff;content: "\f104";font-family: icomoon;font-size: 50px;left: 8px;position: absolute;text-indent: 0;top: auto;}
+.single-page .cs-banner ul.cs-banner-slider .slick-prev {border: 0 none;height: 100%;left: 0;position: absolute;text-align: center;text-indent: -9999px;top: 0;width: 40px;z-index: 1000;background-color:rgba(0,0,0,0.3);}
+.single-page .cs-banner ul.cs-banner-slider .slick-next::before {color: #fff;content: "\f105";font-family: icomoon;font-size: 50px;position: absolute;right: 8px;text-indent: 0;top: auto;}
+.single-page .cs-banner ul.cs-banner-slider .slick-next {border: 0 none;height: 100%;position: absolute;right: 0;text-align: center;text-indent: -9999px;top: 0;width: 40px;z-index: 1000;background-color:rgba(0,0,0,0.3);}
+/*Banner Slider Style End*/
+/*Car Listing Detail Buttons Style Start*/
+.single-page .cs-button-style{position:absolute;bottom:20px;right:0;opacity:1;visibility:visible;-moz-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out;	-webkit-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
+.single-page .cs-button-style a{padding:6px 15px;font-size:12px;color:#FFF;text-align:center;display:inline-block;text-decoration:none;margin-left:2px;letter-spacing:1px;font-weight:bold;text-transform:uppercase;}
+.single-page .cs-button-style a:hover{text-decoration:none;}
+.single-page .cs-button-style a i{font-size:15px;display:inline-block;vertical-align:middle;}
+.single-page .cs-button-style .btn-video{background:#d00000;}
+.single-page .cs-button-style .btn-compare{background:#dddddd;color:#707070;}
+.single-page .cs-button-style .btn-compare i{color:#707070;}
+.single-page .cs-button-style .btn-shortlist{background:#78c25e;}
+.single-page .cs-button-style-none{opacity:0;visibility:hidden;-moz-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out;	-webkit-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
+/*Car Listing Detail Buttons Sidebar Style Start*/
+.single-page .detail-btn .cs-button-style{position:relative;bottom:0;right:0;opacity:1;visibility:visible;-moz-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;opacity:0;visibility:hidden;transform:scale(0);height:0;}
+.single-page .detail-btn{position:absolute;margin-bottom:0;padding-bottom: 0;right:-100%;top:7px;}
+.single-page .cs-detail-nav.cs-detail-nav-fixed .detail-btn{display:inline-block;position:relative;top:0;right:0;}
+.single-page .detail-btn .cs-button-style a{display:inline-block;margin-bottom:4px;}
+.single-page .detail-btn .cs-button-style-none{opacity:1;visibility:visible;transform:scale(1);height:auto;}
+/*Car Listing Detail Buttons Sidebar Style End*/
+/*Category Link With Icon Start*/
+.single-page .cs-category-link-icon{margin-bottom:20px;}
+.single-page .cs-category-link-icon ul{margin:0;padding:0;}
+.single-page .cs-category-link-icon ul li{margin:0;padding:11px 0;display:block;border-bottom:#e2e4e9 solid 1px;}
+.single-page .cs-category-link-icon ul li:last-child{border-bottom:none;}
+.single-page .cs-category-link-icon ul li a{margin:0;padding:0;display:block;font-size:12px;color:#333333;position:relative;}
+.single-page .cs-category-link-icon ul li a:hover{text-decoration:none;}
+.single-page .cs-category-link-icon ul li a:after{position:absolute;content:"\e315";right:0;top:auto;font-family: 'icomoon';color:#a9a9a9;font-size:16px;-moz-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out;	-webkit-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
+.single-page .cs-category-link-icon ul li a i {display: inline-block;font-size: 17px;margin-right: 6px;padding: 0;vertical-align: middle;}
+/*Category Link With Icon End*/
+/*Auto Detail Filter Start*/
+.single-page .auto-detail-filter{padding:21px 20px;background:#f0f2f5;margin-bottom:20px;}
+.single-page .auto-detail-filter .element-title{}
+.single-page .auto-detail-filter .element-title h6{}
+.single-page .auto-detail-filter .element-title h6 i{width:24px;height:24px;color:#FFF;font-size:14px;border-radius:50px;display:inline-block;vertical-align:bottom;text-align:center;line-height:22px;margin-right:10px;}
+.single-page .auto-filter ul{margin:0;padding:0;}
+.single-page .auto-filter ul li{margin:0 0 12px 0;padding:0;display:block;list-style:none;}
+.single-page .auto-filter ul li:last-child{margin-bottom:0;}
+.single-page .auto-detail-filter .auto-field {position:relative;}
+.single-page .auto-detail-filter .auto-field label{font-size:11px;color:#999999;margin-bottom:0;text-transform:uppercase;display:block;}
+.single-page .auto-detail-filter .auto-field label span{margin-left:2px;}
+/*Slider Range Style Start*/
+.single-page .auto-detail-filter .auto-field .slider.slider-horizontal{position:absolute;bottom:-18px;left:0; width:100%;}
+.single-page .auto-detail-filter .auto-field .slider.slider-horizontal .slider-track{height:2px;background:#dfdfdf;}
+.single-page .auto-detail-filter .auto-field .slider.slider-horizontal .slider-tick,.single-page .auto-detail-filter .auto-field  .slider.slider-horizontal .slider-handle{margin-top:-9px;background:#f4f4f4;border-radius:50px;border:2px solid;}
+.single-page .auto-detail-filter .auto-field #ex6CurrentSliderValLabel{font-size:12px;}
+/*Slider Range Style Start*/
+/*Chosen Style Start*/
+.single-page .auto-detail-filter .auto-field .chosen-container .chosen-results li.active-result{padding:6px;}
+.single-page .auto-detail-filter .auto-field .chosen-container-single .chosen-single{background:none;border-radius:0;border-bottom:2px solid #dfdfdf;box-shadow:none;font-size:12px;color:#333333;border-top:0;border-left:0;border-right:0;padding-left:0;}
+.single-page .auto-detail-filter .auto-field .chosen-drop{background:#f0f2f5;}
+.single-page .auto-detail-filter .auto-field .active-result.result-selected{color:#FFF;}
+.single-page .auto-detail-filter .auto-field .chosen-container-single .chosen-single div b {background: rgba(0, 0, 0, 0) url("assets/images/chosen-sprite.png") no-repeat scroll 0 2px;display: block;height: 100%;width: 100%;
+}
+/*Chosen Style End*/
+/*Input Style Start*/
+.single-page .auto-detail-filter .auto-field input[type="text"]{background:none;border-radius:0;border-bottom:2px solid #dfdfdf;box-shadow:none;font-size:12px;color:#333333;border-top:0;border-left:0;border-right:0;padding-left:0;}
+.single-page .auto-detail-filter .auto-field input[type="text"]::-webkit-input-placeholder { color:#333333; }
+.single-page .auto-detail-filter .auto-field input[type="text"]::-moz-placeholder { color:#333333; } /* firefox 19+ */
+.single-page .auto-detail-filter .auto-field input[type="text"]:-ms-input-placeholder { color:#333333; } /* ie */
+.single-page .auto-detail-filter .auto-field input[type="text"]:-moz-placeholder { color:#333333; }
+/*Input Style End*/
+.single-page .auto-detail-filter .auto-field input[type="submit"]{display:inline-block;padding:6px 18px;text-align:center;color:#fff;font-weight:bold;font-size:11px;border:none;text-transform:uppercase;}
+/*Auto Detail Filter End*/
+/*Car Detail Heading Start*/
+.single-page .car-detail-heading{margin-bottom:30px;}
+.single-page .car-detail-heading:after{content:"";clear:both;display:block;}
+.single-page .car-detail-heading h2{margin-bottom:0;}
+.single-page .car-detail-heading .auto-text{float:left;}
+.single-page .auto-price{float:right;}
+.single-page .auto-price span{font-size:32px;font-weight:bold;}
+.single-page .auto-price em{font-size:11px;color:#666666;font-style:normal;font-weight:bold;}
+.single-page .auto-price:after{clear:both;display:block;content:"";}
+.single-page .auto-text span{color:#000000;font-size:11px;margin-right:16px;}
+.single-page .auto-text span i{margin-right:6px;color:#979797;}
+.single-page .auto-text address{display:inline-block;font-style:normal;font-size:12px;color:#999999;}
+.single-page .auto-text address i{margin-right:6px;color:#979797;font-size:12px;}
+/*Car Detail Heading End*/
+/*Single Detail Nav Style Start*/
+.single-page .detail-content .section-title {margin-bottom: 43px;}
+.single-page .cs-detail-nav .cs-section-title{margin-bottom: 36px;}
+.single-page .cs-detail-nav{margin-bottom:30px;background: #f4f4f4;-moz-transition: all 0.5s ease-in-out;-ms-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;-webkit-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;position:relative;transform:translateY(0);overflow:hidden;}
+.single-page .cs-detail-nav.cs-detail-nav-fixed{position:fixed;top:0;width:100%;left:0;z-index:10;transform:translateY(0);overflow:visible;-webkit-box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.25);-moz-box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.25);box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.25);text-align:center;}
+.single-page .cs-detail-nav > ul {border-radius:2px;border:0;margin:0;padding:0;display:inline-block;}
+.single-page .cs-detail-nav > ul:after{content:"";clear:both;display:block;}
+.single-page .cs-detail-nav ul > li {display:inline-block;padding:9px 0 10px;}
+.single-page .cs-detail-nav.cs-detail-nav-fixed ul > li {display:inline-block;padding:9px 0 10px;}
+.single-page .cs-detail-nav ul > li > a{border:none;border-radius:0;border-top:transparent 1px solid;padding:17px 30px;text-align:center;text-transform:uppercase;font-size:11px;font-weight:bold;}
+.single-page .cs-detail-nav ul > li > a:hover{background:#FFF;border:none;border-top:solid 1px;border-radius:0;}
+.single-page .cs-detail-nav ul > li > a.active,
+.single-page .cs-detail-nav ul > li > a.active:hover,
+.single-page .cs-detail-nav ul > li > a.active:focus{border:none;outline:none;border-radius:0;border-top:solid 1px;background:#FFF;}
+.single-page .cs-detail-nav .detail-content{padding:48px 0;}
+/*Over View Style Start*/
+.single-page .detail-content{margin-bottom:30px;}
+.single-page .auto-overview ul{margin:0 0 50px 0;padding:0;}
+.single-page .auto-overview ul li{display:inline-block;border-right:1px solid #e2e4e9;text-align:center;}
+.single-page .auto-overview ul li:first-child{text-align:left;}
+.single-page .auto-overview ul li:last-child{border:0;}
+.single-page .auto-overview ul li .cs-media {margin-right:20px;display:inline-block;vertical-align:middle;}
+.single-page .auto-overview ul li .cs-media figure i{font-size:26px;}
+.single-page .auto-overview ul li .auto-text {display:inline-block;vertical-align:middle;}
+.single-page .auto-overview ul li .auto-text span{display:block;color:#999999;font-size:11px;line-height:17px;text-transform:uppercase;text-align:left;}
+.single-page .auto-overview ul li .auto-text strong{display:block;color:#363636;font-size:16px;line-height:22px;text-transform:uppercase;text-align:left;}
+.single-page .btn-show-more{font-size:10px;text-decoration:none;display:inline-block;vertical-align:top;text-transform:uppercase;font-weight:bold;}
+.single-page .btn-show-more:hover{text-decoration:none;}
+/*Over View Style End*/
+/*Specifications View Style End*/
+.single-page .auto-specifications ul{margin:0 0 39px 0;padding:0 0 39px 0;border-bottom:solid 2px #f2f2f2;}
+.single-page .auto-specifications ul li:first-child{padding:0;}
+.single-page .auto-specifications ul li .element-title i,.single-page .cs-auto-accessories .element-title{margin: 0 0 30px;}
+.single-page .auto-specifications ul li .element-title i,.single-page .cs-auto-accessories .element-title i{font-size:26px;display:inline-block;vertical-align:middle;margin-right:10px;}
+.single-page .auto-specifications ul li .element-title span,.single-page .cs-auto-accessories .element-title span{display:inline-block;vertical-align:top;font-weight:bold;}
+.single-page .auto-specifications .specifications-info ul{margin:0;padding:0;}
+.single-page .auto-specifications .specifications-info ul li{margin:0;padding:6px 0;display:block;border-top:solid 1px #f2f2f2;text-align:left;font-size:11px;color:#999999;}
+.single-page .auto-specifications .specifications-info ul li:after{clear:both;display:block;content:"";}
+.single-page .auto-specifications .specifications-info ul li strong{float:right;color:#333333;}
+.single-page .cs-auto-accessories .cs-listing-icon ul{margin:0;padding:0;}
+.single-page .cs-auto-accessories .cs-listing-icon ul li{margin:0 0 4px !important;padding:0;display:block;font-size:11px;position: relative;}
+.single-page .cs-auto-accessories .cs-listing-icon ul li span{margin-left: 25px;display: block;}
+.single-page .cs-auto-accessories .cs-listing-icon ul li.available:before{content: "\ec03"; position: absolute;left: 0;top: 0;font-family: 'icomoon';color:#95c426;font-size: 10px;}
+.single-page .cs-auto-accessories .cs-listing-icon ul li.not-available:before{content: "\ec02"; position: absolute;left: 0;top: 0;font-family: 'icomoon';color:#dc525d;font-size: 10px;}
+.single-page .more-text{display:none;}
+/*Single Detail Nav Style End*/
+/*Modal Form Body Style Start*/
+.cs-form-modal button.close{display:inline-block;background:#a7a7a7;height:20px;width:20px;opacity:1;border-radius:50px;-webkit-box-shadow: inset 1px 1px rgba(0,0,0,.16);-moz-box-shadow: inset 1px 1px rgba(0,0,0,.16);box-shadow: inset 1px 1px rgba(0,0,0,.16);color:#FFF;margin:-2px -12px 0 0;}
+.cs-form-modal .modal-dialog{width: 394px;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;background-color: #fff;-webkit-box-shadow: 0 2px 6px rgba(0,0,0,.22);-moz-box-shadow: 0 2px 6px rgba(0,0,0,.22);box-shadow: 0 2px 6px rgba(0,0,0,.22);margin-top:155px;}
+.cs-form-modal .modal-content{padding:0 20px;}
+.cs-form-modal .modal-header{border-bottom:0;padding:9px 0 0;}
+.cs-form-modal .modal-body{padding:0 20px 15px;}
+.cs-form-modal .modal-body h4{margin-bottom:11px;text-transform:uppercase !important;}
+.cs-form-modal button.close > span {font-size: 18px;position: relative;top: -3px;}
+/*Modal Form Body Style End*/
+/*Modal Form Input Field Style Start*/
+.cs-modal-field label{-webkit-box-shadow: 0 0 3px rgba(51,144,238,.1);-moz-box-shadow: 0 0 3px rgba(51,144,238,.1);box-shadow: 0 0 3px rgba(51,144,238,.1);border: solid 1px #c9cacc;display:block;width:100%;padding:0 12px;position:relative;margin-bottom:11px;}
+.cs-modal-field label strong{color:#9a9a9a;font-size:11px;text-transform:uppercase;font-weight:700;}
+.cs-modal-field label i{position:absolute;right:13px;top:16px;font-size:18px;color:#dcdcdc;z-index:99;}
+.cs-modal-field input[type="text"],.cs-modal-field input[type="email"],.cs-modal-field input[type="password"],.cs-modal-field input[type="tel"],.cs-modal-field input[type="text"],.cs-modal-field textarea{font-size:14px;color:#cacaca;border:none;padding:0 24px 0 0;border-radius:0;height:16px;position:relative;top:-5px;}
+.cs-modal-field textarea{height:148px;top:0;overflow: auto;resize: vertical;padding:10px 0;}
+.cs-modal-field input[type="submit"]{display:block;background:none;padding:9px 6px;border:solid 1px; border-radius:4px;font-size:16px;font-weight:700;width:100%; text-align:center;margin-top:20px;margin-bottom:0;text-transform:capitalize;margin-bottom:18px;}
+.cs-modal-field .cs-media figure img{width:100%;}
+.cs-modal-field .chosen-container-single .chosen-drop{margin-top:10px;padding:10px;border:1px solid #aaa;}
+.cs-modal-field .chosen-container-single .chosen-single {border: 0 none;color: #cacaca;height: 16px;padding: 0;}
+.cs-modal-field .chosen-container-single .chosen-single span {line-height: 18px;margin-top: -4px;}
+.cs-modal-field .chosen-container .chosen-drop,.cs-modal-field .chosen-container-active .chosen-single{box-shadow:none;}
+.cs-modal-field .chosen-container .chosen-results{padding:0 4px;}
+.cs-modal-field .chosen-container .chosen-results i{color:#cacaca;}
+/*Modal Form Input Field Style End*/
+/*Auto Google Map Start*/
+.single-page .cs-map.loader {background: #fff url(assets/images/spin-load.gif) no-repeat scroll center center;height: 450px;width: 100%;overflow:hidden;}
+/*Auto Google Map End*/
+/**** User Genral Setting Start ****/
+.wp-automobile .cs-user-account-holder {background: #fff;width: 990px;margin: 0 auto 50px;box-shadow:0 0 15px 0 rgba(0, 0, 0, 0.1);padding: 30px 150px;}
+.wp-automobile ul.cs-user-accounts-list {margin: 0 0 50px 0;padding: 0;border-bottom: 1px solid #e8eaed;}
+.wp-automobile ul.cs-user-accounts-list li {padding: 0;margin: 0 -4px -1px 0;list-style: none;display: inline-block;overflow: hidden;vertical-align: middle;}
+.wp-automobile ul.cs-user-accounts-list li a {display: block;text-decoration: none;text-transform: uppercase;color: #8a96a6;font-family: 'Lato', sans-serif;font-weight: 700;font-size: 10px;	padding: 10px 12px 10px 13px;margin: 0 0 0 0;position: relative;}
+.wp-automobile ul.cs-user-accounts-list li a:after {position: absolute;left: -100%;bottom: 0;height: 2px;width: 100%;content: '';z-index: 5;-moz-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;-webkit-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
+.wp-automobile ul.cs-user-accounts-list li:hover a:after,
+.wp-automobile ul.cs-user-accounts-list li.active a:after { left: 0; }
+.wp-automobile ul.cs-user-accounts-list li:first-child a { padding-left: 0; }
+/* User Section Title Start*/
+.wp-automobile .cs-user-section-title {padding: 10px 0 0 0;margin: 0 0 30px 0;}
+.wp-automobile .cs-user-section-title h4 {display: inline-block; font-size: 18px !important;line-height: 24px !important;font-weight: 700 !important;letter-spacing: 2px !important;text-transform: uppercase !important;padding: 0 !important;margin: 0 !important;color: #333 !important;font-family: 'Raleway', sans-serif !important;}
+.wp-automobile .cs-field-holder h6 {font-size: 12px !important;line-height: 24px !important;font-weight: 700 !important;letter-spacing: 2px !important;text-transform: uppercase !important;padding: 0 !important;margin: 0 !important;color: #333 !important;	font-family: 'Raleway', sans-serif !important;}
+/* User Section Title End*/
+/*File Upload Button Style Start*/
+.wp-automobile .cs-profile-pic {margin: 0 0 30px 0;padding: 0 0 0 0;}
+.wp-automobile .profile-pic { float: right; }
+.wp-automobile .profile-pic figure {border-radius: 100%;height: 98px;overflow: hidden;width: 98px;border: 1px solid #ededed;}
+.wp-automobile .profile-pic figure img {height: auto;width: 100%;}
+.wp-automobile .cs-browse-holder { padding-top: 15px; }
+.wp-automobile .cs-browse-holder em {color: #333;display: block;font-size: 11px;font-style: normal;margin-bottom: 10px;	font-weight: 500;}
+.wp-automobile .cs-profile-pic .btn-file {border: solid 1px #f8f8f8;border-radius: 3px;box-shadow: 1px 2px 0 0 rgba(0, 0, 0, 0.1);color: #999;cursor: pointer;font-size: 12px;overflow: hidden;padding: 10px 20px 10px 20px;position: relative;text-transform: uppercase;}
+.wp-automobile .cs-profile-pic .btn-file:after {color: #717171;content: "\e438";font-family: icomoon;font-size: 20px;right: -60px;position: absolute;top: 0;border: solid 1px #f8f8f8;padding:5px 12px;box-shadow: 1px 2px 0 0 rgba(0, 0, 0, 0.1);}
+.wp-automobile .cs-profile-pic .btn-file input[type=file] {background: red;cursor: inherit;display: block;filter: alpha(opacity=0);font-size: 100px;height: 35px;left: 0;opacity: 0;position: absolute;text-align: right;top: 0;width: 100%;}
+/*File Upload Button Style End*/
+.wp-automobile .cs-field-holder { margin-bottom: 13px; }
+.wp-automobile .cs-field-holder label {font-size: 10px;letter-spacing: 2px;text-transform: uppercase;font-family: 'Lato', sans-serif;margin: 0 0 3px 0;padding: 0;cursor: pointer;}
+.wp-automobile .cs-field-holder .cs-field { position: relative; }
+.wp-automobile .cs-field-holder .cs-field input[type=text], .wp-automobile .cs-field-holder .cs-field input[type="datetime"] , .wp-automobile .cs-field-holder .cs-field input[type="email"] {height: 43px;width: 100%;background-color: #f8f8f8;border: 1px solid #ededed;color: #666;font-size: 13px;line-height: 16px;padding: 10px 12px;	border-radius: 0;}
+.wp-automobile .cs-field-holder .cs-field.has-error span {bottom: -24px;color: #f16060;font-size: 10px;left: 0;position: absolute;}
+.wp-automobile .cs-field-holder .cs-field.has-error input[type=text] {border: 1px solid #f16060;position: relative;}
+.wp-automobile .cs-field-holder .cs-field.has-error .chosen-container-single .chosen-single {border: 1px solid #f16060;position: relative;}
+.wp-automobile .cs-field-holder .cs-field.has-error .chosen-container .chosen-drop {border: 1px solid #f16060;border-top: 0;}
+.wp-automobile .cs-field-holder .cs-field.has-error:after {content: '\f071';position: absolute;right: -25px;top: 8px;font-size: 17px;color: #f16060;font-family: 'icomoon';}
+.wp-automobile .cs-field-holder textarea {width: 100%;background: #f8f8f8;border: 1px solid #ededed;color: #666;font-size: 13px;line-height: 16px;padding: 10px 12px;height: 125px;}
+/* User Chosen Style Start */
+.wp-automobile .cs-field-holder .chosen-container-single .chosen-single {height: 43px;width: 100%;text-transform: none;background-color: #f8f8f8;border: 1px solid #ededed;color: #666;font-size: 13px;	line-height: 20px;padding: 10px 12px;border-radius: 0;box-shadow: none;margin: 0;}
+.wp-automobile .cs-field-holder .chosen-container-single .chosen-single div b {background: none;position: relative;}
+.wp-automobile .cs-field-holder .chosen-container-single .chosen-single div b:after {position: absolute;content: '\e94c';font-family: 'icomoon';right: 11px;top: 11px;color: #b6b6b6;font-size: 15px;}
+.wp-automobile .cs-field-holder .chosen-container .chosen-drop {background: #f8f8f8;box-shadow: none;border: 1px solid #ededed;border-top: 0;padding: 0 10px;}
+.wp-automobile .cs-field-holder .chosen-container .chosen-drop .chosen-search input[type=text]{background-color:#fff; border:1px solid #aaa; border-radius: 0;font-family: sans-serif;font-size: 1em;height: auto;line-height: normal;margin: 1px 0;outline: 0 none;padding: 4px 20px 4px 5px;width: 100%;}
+.wp-automobile .cs-field-holder .chosen-container .chosen-results li {padding: 8px 6px;margin-bottom: 1px;}
+.wp-automobile .cs-field-holder .chosen-container .chosen-results li.active-result.result-selected { color: #fff; }
+/* User Chosen Style End */
+/* User Switch Style Start */
+.wp-automobile .cs-switch-holder {background: #f8f8f8;border-radius: 4px;padding: 18px 22px;}
+.wp-automobile .material-switch {float: left;margin: 0 15px 0 0;}
+.wp-automobile .material-switch > input[type="checkbox"] { display: none; }
+.wp-automobile .material-switch > label {cursor: pointer;height: 0px;position: relative;width: 40px;}
+.wp-automobile .material-switch > label::before {background: rgb(0, 0, 0);box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);border-radius: 10px;content: '';height: 20px;margin-top: -10px;position: absolute;opacity: 0.3;transition: all 0.4s ease-in-out;width: 40px;}
+.wp-automobile .material-switch > label::after {background: rgb(255, 255, 255);border-radius: 16px;box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);content: '';height: 24px;left: -4px;margin-top: -8px;	position: absolute;top: -4px;transition: all 0.3s ease-in-out;width: 24px;}
+.wp-automobile .material-switch > input[type="checkbox"]:checked + label::before {background: #2bb26e;box-shadow: none;opacity: 1;}
+.wp-automobile .material-switch > input[type="checkbox"]:checked + label::after {background: #fff;left: 20px;}
+/* User Switch Style End */
+.wp-automobile .cs-seprator {border-bottom: 2px solid #efefef;width: 100%;padding: 15px 0 0 0;margin-bottom: 25px;display: block;}
+.wp-automobile .cs-field a {display: block;position: relative;background: #f8f8f8;border: 1px solid #ededed;color: #666;font-size: 10px;line-height: 20px;padding: 10px 12px;text-decoration: none;	margin: 0 0 20px 0;text-transform: uppercase;}
+.wp-automobile .cs-field a i {position: absolute;right: 20px;height: 20px;width: 20px;border-radius: 2px;font-size: 12px;text-align: center;line-height: 17px;-moz-transition: all 0.5s ease-in-out;-ms-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;-webkit-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;}
+.wp-automobile .cs-field a:hover i {transform: rotate(360deg);border-radius: 50%;}
+.wp-automobile .cs-field a:hover:after { left: 0; }
+.wp-automobile .cs-field a[data-original-title="Facebook"] i {color: #2a4a8f;border: 1px solid #2a4a8f;}
+.wp-automobile .cs-field a[data-original-title="Twitter"] i {color: #55acee;border: 1px solid #55acee;}
+.wp-automobile .cs-field a[data-original-title="Linkedin"] i {color: #0070b1;border: 1px solid #0070b1;}
+.wp-automobile .cs-field .cs-btn-submit {color: #fff;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s;position: relative;z-index: 1;}
+.wp-automobile .cs-field .cs-btn-submit input[type=submit] {-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s;height: 43px;width: 100%;font-size: 13px;line-height: 16px;padding: 10px 12px;border-radius: 3px;text-align: center;color: #fff !important;border: 0;text-transform: uppercase;font-weight: 700;background: none;cursor: pointer;position: relative;z-index: 5;}
+.wp-automobile .cs-field .cs-btn-submit input[type=submit] {text-decoration: none;display: block;}
+.wp-automobile .cs-field .cs-btn-submit:before {content: '';position: absolute;bottom: 0;left: 0;width: 100%;height: 100%;z-index: 1;opacity: 0;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s;border-top-width: 1px;border-bottom-width: 1px;border-top-style: solid;border-bottom-style: solid;border-top-color: #d00000;border-bottom-color: #d00000;-webkit-transform: scale(0.1, 1);transform: scale(0.1, 1);}
+.wp-automobile .cs-field .cs-btn-submit:hover input[type=submit] {letter-spacing: 0;color: #d00000 !important;}
+.wp-automobile .cs-field .cs-btn-submit:hover::before {opacity: 1;-webkit-transform: scale(1, 1);transform: scale(1, 1);}
+.wp-automobile .cs-field .cs-btn-submit:after {content: '';position: absolute;bottom: 0;left: 0;width: 100%;height: 100%;z-index: 1;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;	-o-transition: all 0.3s;transition: all 0.3s;background-color: #d00000;color: #fff;border-radius: 3px;}
+.wp-automobile .cs-field .cs-btn-submit:hover:after {opacity: 0;-webkit-transform: scale(0.1, 1);transform: scale(0.1, 1);}
+/**** User Genral Setting Style End ****/
+/**** User Post Vehicles Style Start ****/
+.wp-automobile .user-post-vehicles .cs-field-holder { margin-bottom: 30px; }
+.wp-automobile .user-post-vehicles .cs-field-holder label {cursor: pointer; padding: 7px 0;margin: 0;text-align: right;display: block;font-size: 11px;}
+.wp-automobile .user-post-vehicles .cs-field-holder label em {font-style: normal;color: #999;display: block;font-size: 9px;line-height: 10px;}
+.wp-automobile .user-post-vehicles .cs-field-holder .cs-field em {font-style: normal;font-size: 10px;color: #999;}
+.wp-automobile .user-post-vehicles .cs-seprator {margin: -10px 0 10px 0;padding: 0;}
+.wp-automobile .user-post-vehicles .cs-upload-img ul {margin: 0;padding: 0;}
+.wp-automobile .user-post-vehicles .cs-upload-img ul li {list-style: none;display: inline-block;margin: 0 6px 15px 0;padding: 0;border-bottom: 2px solid #e3e3e3;}
+.wp-automobile .user-post-vehicles .cs-upload-img ul li a { position:relative ;display: block;padding: 0 0 1px 0;margin: 0;text-decoration: none;}
+.wp-automobile .user-post-vehicles .cs-upload-img ul li a:after{ font-family:'icomoon'; position:absolute; margin:0 0 0 -12px; left:50%; top:50%; color:#fff; text-align:center; line-height:24px; content:'\f014'; background:rgba(0,0,0,0.8); width:24px; height:24px; opacity:0;-moz-transition: all 0.3s ease-in-out;	-ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out;	-webkit-transition: all 0.3s ease-in-out;	transition: all 0.3s ease-in-out;}
+.wp-automobile .user-post-vehicles .cs-upload-img ul li a:hover:after{ opacity:1; margin:-12px 0 0 -12px}
+.wp-automobile .user-post-vehicles .cs-upload-img p {margin: 0;	padding: 0;font-size: 12px;color: #bbb !important;line-height: 18px;}
+.wp-automobile .user-post-vehicles .cs-browse-holder {padding: 25px 0 0 0;margin: 0 0 20px 0;}
+.wp-automobile .user-post-vehicles .cs-browse-holder .btn-file {border: 0;border-radius: 3px;box-shadow: none;color: #fff;background: #78c25e;cursor: pointer;font-size: 10px;overflow: hidden;font-weight: 700;padding: 13px 25px;position: relative;text-transform: uppercase;}
+.wp-automobile .user-post-vehicles .cs-browse-holder .btn-file:after { display: none; }
+.wp-automobile .user-post-vehicles .cs-browse-holder .btn-file input[type=file] {cursor: inherit;display: block;filter: alpha(opacity=0);font-size: 100px;height: 35px;left: 0;opacity: 0;position: absolute;text-align: right;top: 0;	width: 100%;}
+.wp-automobile .cs-field-holder h6 i {display: inline-block;vertical-align: top;padding: 2px 5px 0 0;font-size: 17px;}
+.wp-automobile .cs-field-holder ul.cs-checkbox-list {margin: 0 0 30px 0;padding: 0;}
+.wp-automobile .cs-field-holder ul.cs-checkbox-list:after {content: '';clear: both;display: block;}
+.wp-automobile .cs-field-holder ul.cs-checkbox-list li {margin: 0;float: left;list-style: none;}
+.wp-automobile .cs-field-holder .cs-checkbox input[type=checkbox] { display: none; }
+.wp-automobile .cs-field-holder .cs-checkbox label {text-align: inherit;padding: 0 0 0 25px;}
+.wp-automobile .cs-field-holder .cs-checkbox label:before {background-color: #f2f2f2;border: 1px solid #999;bottom: 8px;box-shadow: none; content: "";display: inline-block;height: 15px;left: 15px;margin-bottom: 0;margin-right: 10px;position: absolute;width: 15px;}
+.wp-automobile .cs-field-holder .cs-checkbox label:before { border-radius: 0; }
+.wp-automobile .cs-field-holder .cs-checkbox input[type=radio]:checked + label:before {content: "\2022";color: #f3f3f3;font-size: 30px;text-align: center;line-height: 18px;}
+.wp-automobile .cs-field-holder .cs-checkbox input[type=checkbox]:checked + label:before {content: "\2713";text-shadow:none;font-size: 12px;color: #999;text-align: center;line-height: 14px;}
+/**** User Post Vehicles Style End ****/
+/**** User Payments Style Start ****/
+.wp-automobile .payment-list ul{margin:0 0 20px 0; }
+.wp-automobile .payment-list li{list-style:none; }
+.wp-automobile .payment-list .payment-label{border-top:1px solid #f2f2f2; border-bottom:3px solid #f2f2f2; padding:10px 0; }
+.wp-automobile .payment-list .payment-label ul{ margin:0; padding:0;}
+.wp-automobile .payment-list .payment-label li{color:#737f96; display:inline-block; font-size:10px; text-transform:uppercase; width:14%; }
+.wp-automobile .payment-list .payment-label li:first-child{padding:0; width:43%; }
+.wp-automobile .payment-list .payment-label li:nth-child(2){width:16%; }
+.wp-automobile .payment-list .payment-label li:nth-child(4){ text-align:center; }
+.wp-automobile .payment-list .payment-label li:last-child{text-align:right; width:10%; }
+.wp-automobile .payment-list .payment-content{ padding:10px 0; border-bottom:1px solid #f2f2f2; }
+.wp-automobile .payment-list .payment-content ul{ margin:0;}
+.wp-automobile .payment-list .payment-content li{ color:#282828; display:inline-block; font-size:12px; width:16%; text-transform:uppercase; }
+.wp-automobile .payment-list .payment-content li em{ font-style:normal; font-size:10px; display:inline-block; padding:0 5px;}
+.wp-automobile .payment-list .payment-content li:nth-child(1){width:43%; }
+.wp-automobile .payment-list .payment-content li:nth-child(3){width:14%; }
+.wp-automobile .payment-list .payment-content li:nth-child(4){ text-align:center; width:14%;}
+.wp-automobile .payment-list .payment-content li:last-child{text-align:right; width:10%; }
+/**** User Payments Style End ****/
+/**** User Packages Style Start ****/
+.wp-automobile .packages-list ul{margin:0 0 20px 0; }
+.wp-automobile .packages-list li{list-style:none; }
+.wp-automobile .packages-list .packages-label{border-top:1px solid #f2f2f2; border-bottom:3px solid #f2f2f2; padding:10px 0; }
+.wp-automobile .packages-list .packages-label ul{ margin:0; padding:0;}
+.wp-automobile .packages-list .packages-label li{color:#737f96; display:inline-block; font-size:10px; text-transform:uppercase; width:11%; }
+.wp-automobile .packages-list .packages-label li:first-child{padding:0; width:38%; }
+.wp-automobile .packages-list .packages-label li:nth-child(2){width:14%; }
+.wp-automobile .packages-list .packages-label li:nth-child(3){width:12%; }
+.wp-automobile .packages-list .packages-label li:nth-child(4){ text-align:center; }
+.wp-automobile .packages-list .packages-label li:nth-child(5){ text-align:center; }
+.wp-automobile .packages-list .packages-label li:last-child{text-align:right; width:10%; }
+.wp-automobile .packages-list .packages-content{ padding:10px 0; border-bottom:1px solid #f2f2f2; }
+.wp-automobile .packages-list .packages-content ul{ margin:0;}
+.wp-automobile .packages-list .packages-content li{ color:#282828; display:inline-block; font-size:12px; width:16%; text-transform:uppercase; }
+.wp-automobile .packages-list .packages-content li em{ font-style:normal; font-size:10px; display:inline-block; padding:0 5px;}
+.wp-automobile .packages-list .packages-content li:nth-child(1){width:38%; }
+.wp-automobile .packages-list .packages-content li:nth-child(2){width:14%; }
+.wp-automobile .packages-list .packages-content li:nth-child(3){width:12%; }
+.wp-automobile .packages-list .packages-content li:nth-child(4){ text-align:center; width:11%;}
+.wp-automobile .packages-list .packages-content li:nth-child(5){ text-align:center; width:11%;}
+.wp-automobile .packages-list .packages-content li:last-child{text-align:center; width:10%; }
+/**** User Packages Style End ****/
+/* User Car Listed Style Start */
+.wp-automobile .cs-featurelisted-car  li.col-lg-9 .cs-text{width: 83%;}
+.wp-automobile .cs-featurelisted-car  li.col-lg-8 .cs-text{width: 80%;}
+.wp-automobile .cs-featurelisted-car li h6{margin-bottom: 0px;}
+.wp-automobile .cs-featurelisted-car li{list-style: none; padding: 30px 0 30px 0; margin: 0px; border-bottom: 1px solid #f2f2f2; position: relative;}
+.wp-automobile .cs-featurelisted-car .cs-text{display: inline-block; vertical-align: middle; width: 75%; margin-right: -4px;}
+.wp-automobile .cs-featurelisted-car .cs-media{width: 120px; display: inline-block; vertical-align: middle; margin-right: 26px;}
+.wp-automobile .cs-featurelisted-car .post-options span{display: inline-block; font-size: 13px; color: #999; font-weight: 400; line-height: 18px; padding: 0 8px; position: relative;}
+.wp-automobile .cs-featurelisted-car .post-options span a{text-decoration:none; color: #999; margin:0; padding:0;}
+.wp-automobile .cs-featurelisted-car .post-options span:first-child{ padding-left: 0px;}
+.wp-automobile .cs-featurelisted-car .post-options span:first-child:before{display: none;}
+.wp-automobile .cs-featurelisted-car .post-options span:before{content: ""; position: absolute; left: -3px; top: 7px; width: 4px; height: 4px; border-radius: 100%; background-color: #e9ebf0;}
+.wp-automobile .cs-featurelisted-car .post-options span em{font-style: normal; font-weight: bold;}
+.wp-automobile .cs-featurelisted-car .cs-featured{font-size: 10px; color: #fff; text-transform: uppercase; display: inline-block; background-color: #000; line-height: 15px; padding: 2px 6px 3px 6px; margin-bottom: 12px;}
+.wp-automobile .cs-featurelisted-car .cs-default-btn{text-decoration:none; float: right; font-size: 10px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; padding: 3px 0px; border-radius: 2px; line-height: 18px; width: 70px; text-align: center;}
+/* User Post Types Style Start */
+.wp-automobile .cs-featurelisted-car .cs-post-types{display: inline-block; position: absolute; right: 0px; width: 300px; top: 50%; margin-top: -8px;}
+.wp-automobile .cs-featurelisted-car .cs-post-list{float: left; text-align: right; width: 65%; margin-right: 25px; position: relative;}
+.wp-automobile .cs-featurelisted-car .cs-edit-post{position: absolute; right: 0px; opacity: 1;}
+.wp-automobile .cs-featurelisted-car .cs-edit-post a{text-decoration:none;  display: inline-block; vertical-align: middle; margin-left: 15px; margin-right: -4px;}
+.wp-automobile .cs-featurelisted-car .cs-edit-post a i{font-size: 20px; color: #949595;}
+.wp-automobile .cs-featurelisted-car .cs-post-list .cs-list{margin: 0px; padding: 0px; text-align: right; position: absolute; right: -30px; width: 100%; opacity: 0; visibility: hidden;}
+.wp-automobile .cs-featurelisted-car .cs-post-list .cs-list a{text-decoration:none; display: inline-block; vertical-align: middle; margin-left: 15px;}
+.wp-automobile .cs-featurelisted-car .cs-post-list .cs-list a i{font-size: 20px; color: #89919f;}
+.wp-automobile .cs-featurelisted-car .cs-post-types:hover .cs-post-list .cs-edit-post{right:-30px; opacity: 0; visibility: hidden;  }
+.wp-automobile .cs-featurelisted-car .cs-post-types:hover .cs-post-list .cs-list{right: 0; opacity: 1; visibility: visible; }
+/* User Car Listed Style End */
+/* Active Btn Start */
+.wp-automobile .cs-user-section-title ul{ margin:0; padding:0; float:right; position:relative; z-index:999;}
+.wp-automobile .cs-user-section-title ul li{ padding:0; margin:0; list-style:none; position:relative;}
+.wp-automobile .cs-user-section-title ul li a{text-decoration:none; text-decoration:none;  float: right; font-size: 10px; color: #8a96a6; font-weight: 400; text-transform: uppercase; letter-spacing: 1px; position: relative; padding-right: 14px;}
+.wp-automobile .cs-user-section-title ul li a:after{content: "\e5c5"; position: absolute; right: -4px; top: 0px; font-size: 16px; color: #646f82; font-family: "icomoon";}
+.wp-automobile .cs-user-section-title ul li ul{ background:#fff; box-shadow:0px 1px 2px 0 rgba(0, 0, 0, 0.2); position:absolute; left:-8px; top:25px; width:80px; opacity:0; visibility:hidden; float:none;}
+.wp-automobile .cs-user-section-title ul li:hover ul{ opacity:1; visibility:visible;}
+.wp-automobile .cs-user-section-title ul li ul li a{ padding:0 10px; float:none;}
+.wp-automobile .cs-user-section-title ul li ul li a:after{ display:none;}
+/* Active Btn End */
+/* User Car Shortlist Style Start */
+.wp-automobile .cs-shortlisted-car li h6 a, 
+.wp-automobile .cs-featurelisted-car li h6 a{ text-decoration:none; font-size: 13px !important; font-weight: 600 !important; letter-spacing: 1px !important; color: #000 !important; text-transform: uppercase !important;}
+.wp-automobile .cs-shortlisted-car,
+.wp-automobile .cs-featurelisted-car{margin: 0px 15px 50px 15px; padding: 0px;}
+.wp-automobile .cs-shortlisted-car li:first-child,
+.wp-automobile .cs-featurelisted-car li:first-child{ border-top: 1px solid #f2f2f2;}
+.wp-automobile .cs-shortlisted-car li{list-style: none; padding: 30px 0 20px 0; margin: 0px; border-bottom: 1px solid #f2f2f2; position: relative;}
+.wp-automobile .cs-shortlisted-car li .cs-media figure,
+.wp-automobile .cs-featurelisted-car li .cs-media figure{border:1px solid #f2f2f2; padding: 5px 6px 8px 6px;}
+.wp-automobile .cs-shortlisted-car li .cs-media{float: left; margin-right: 30px;}
+.wp-automobile .cs-shortlisted-car li .cs-text{overflow: hidden;}
+.wp-automobile .cs-shortlisted-car li address{font-size: 10px; font-weight: bold; color: #999; text-transform: uppercase; font-style: normal; line-height: 20px; letter-spacing: 1px; margin-bottom: 8px; margin-top: -5px;}
+.wp-automobile .cs-shortlisted-car li address i{display: inline-block; font-size: 12px; margin-right: 6px; color: #979797; vertical-align: middle; margin-top: -2px;}
+.wp-automobile .cs-shortlisted-car li .cs-price span{font-size: 22px; font-weight: bold;}
+.wp-automobile .cs-shortlisted-car li .cs-price em{font-size: 11px; color: #666; font-style: normal; font-weight: bold;}
+.wp-automobile .cs-shortlisted-car li .cs-remove-btn{text-decoration:none; font-size: 10px; font-weight: bold; text-transform: uppercase; color: #fff; display: inline-block; line-height: 22px; padding: 0 12px; border-radius: 3px; letter-spacing: 1px; position: absolute; right: 0px; top: 50%; margin-top: -10px;}
+.wp-automobile .cs-featurelisted-car .cs-post-types .cs-post-list .cs-list,
+.wp-automobile .cs-featurelisted-car .cs-post-types:hover .cs-post-list .cs-list,
+.wp-automobile .cs-featurelisted-car .cs-edit-post,
+.wp-automobile .cs-featurelisted-car .cs-post-types:hover .cs-post-list .cs-edit-post{-moz-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;-webkit-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
+/* User Car Shortlist Style End */
+/* Load More Btn style Start*/
+.wp-automobile .cs-load-more{width: 586px; margin: 0 auto 30px auto; overflow: hidden; text-align: center; padding: 5px 0;}
+.wp-automobile .cs-load-more .loadmore-btn{text-decoration:none; display: inline-block; font-size: 11px; color: #666; font-weight: 800; text-transform: uppercase; padding: 8px 25px; line-height: 14px; letter-spacing: 1px; box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.2); border-radius: 2px; position: relative; background-color: #fff;}
+.wp-automobile .cs-load-more .loadmore-btn:before, .wp-automobile .cs-load-more .loadmore-btn:after{content: ""; position: absolute; left: 100%; width: 9999px; height: 1px; top: 14px; border-top:1px solid #ebf0f6;}
+.wp-automobile .cs-load-more .loadmore-btn:after{left: auto; right: 100%;}
+/* Load More Btn Style End */
+/**** Price Table Modren Start ****/
+.wp-automobile .pricetable-holder.modren { margin:0 -14px; padding: 30px 30px;text-align:left; margin-bottom:50px; background:#f2f2f2;}
+.wp-automobile .pricetable-holder.modren.active{ margin:-25px -14px; background:#f5f5f5; padding: 55px 30px;}
+.wp-automobile .pricetable-holder.modren.first-element{ margin-left:0;}
+.wp-automobile .pricetable-holder.modren.last-element{ margin-right:0;}
+.wp-automobile .pricetable-holder.modren h2{ margin:0 0 25px 0; letter-spacing:0 !important; font-weight:900; font-size:18px; color:#333; font-family: 'Raleway', sans-serif; text-transform: uppercase !important;}
+.wp-automobile .pricetable-holder.modren .price-holder .cs-price span {font-family: 'Lato', sans-serif; display: block; margin:0 -30px; padding:22px 30px 20px; font-size: 45px;line-height: 40px;font-weight: 700;color: #333; border-bottom:1px solid #d9d9d9; border-top:1px solid #d9d9d9;}
+.wp-automobile .pricetable-holder.modren .price-holder .cs-price span sup{ top:-14px;}
+.wp-automobile .pricetable-holder.modren .price-holder .cs-price span i {display: inline-block;vertical-align: top;font-size: 16px;font-weight: 300;padding: 0 5px;}
+.wp-automobile .pricetable-holder.modren .price-holder .cs-price span em {color:#999 !important; display: inline-block;vertical-align: baseline;font-style: normal; font-size: 10px;padding: 0 5px;	line-height: 16px;text-transform: uppercase;}
+.wp-automobile .pricetable-holder.modren .price-holder .cs-price ul {margin: 0 0 25px 0;padding: 15px 0 0 0;}
+.wp-automobile .pricetable-holder.modren .price-holder .cs-price ul li { list-style:none; padding:7px 0;font-size: 14px;color: #363636; margin:0;}
+.wp-automobile .pricetable-holder.modren .price-holder .cs-price ul li:last-child { border: 0; }
+.wp-automobile .pricetable-holder.modren .price-holder a { text-decoration:none; text-transform: uppercase;padding:9px 40px;display: inline-block;font-weight: 700;font-size: 14px; background:#2e2e2e; color:#fff !important;}
+.wp-automobile .pricetable-holder.modren.active .price-holder a{ text-decoration:none; color: #fff !important;}
+/**** Price Table Modren End ****/
+/**** Signin Page Style Start ****/
+.wp-automobile .cs-signin h4{font-size:18px !important;text-transform:uppercase !important;font-weight:700 !important;letter-spacing:1px !important;margin:0 0 20px 0 !important;font-family: 'Raleway', sans-serif !important;color:#555 !important;}
+.wp-automobile .cs-signin{ margin-bottom:30px;}
+.wp-automobile .cs-signin .cs-field-holder{ margin-bottom:20px;}
+.wp-automobile .cs-signin .cs-field-holder label{font-size:14px; line-height:20px; margin:0 0 10px 0; padding:0; color:#666; font-family: 'Lato', sans-serif;text-transform: none; letter-spacing:1px;}
+.wp-automobile .cs-signin .cs-field-holder input[type=text]{border: 1px solid #c4c4c4;border-radius: 2px; box-shadow: none; box-sizing: border-box; color: #999;font-size: 14px;height: 44px;   line-height: 16px;padding: 10px 12px;width: 100%;}
+.wp-automobile .cs-signin .cs-field-holder .cs-btn-submit { display:inline-block; color: #fff;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s;position: relative;z-index: 1;}
+.wp-automobile .cs-signin .cs-field-holder .cs-btn-submit input[type=submit] {-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s;height: 43px;width: auto;font-size: 13px;line-height: 16px;padding: 10px 25px;border-radius: 3px;text-align: center;color: #fff !important;border: 0;text-transform: uppercase;font-weight: 700;background: none;cursor: pointer;position: relative;z-index: 5; letter-spacing:1px;}
+.wp-automobile .cs-signin .cs-field-holder .cs-btn-submit input[type=submit] {text-decoration: none;display: inline-block;}
+.wp-automobile .cs-signin .cs-field-holder .cs-btn-submit:before {content: '';position: absolute;bottom: 0;left: 0;width: 100%;height: 100%;z-index: 1;opacity: 0;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s;border-top-width: 1px;border-bottom-width: 1px;border-top-style: solid;border-bottom-style: solid;border-top-color: #d00000;border-bottom-color: #d00000;-webkit-transform: scale(0.1, 1);transform: scale(0.1, 1);}
+.wp-automobile .cs-signin .cs-field-holder .cs-btn-submit:hover input[type=submit] {letter-spacing: 2px;color: #d00000 !important;}
+.wp-automobile .cs-signin .cs-field-holder .cs-btn-submit:hover::before {opacity: 1;-webkit-transform: scale(1, 1);transform: scale(1, 1);}
+.wp-automobile .cs-signin .cs-field-holder .cs-btn-submit:after {content: '';position: absolute;bottom: 0;left: 0;width: 100%;height: 100%;z-index: 1;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;	-o-transition: all 0.3s;transition: all 0.3s;background-color: #d00000;color: #fff;border-radius: 3px;}
+.wp-automobile .cs-signin .cs-field-holder .cs-btn-submit:hover:after {opacity: 0;-webkit-transform: scale(0.1, 1);transform: scale(0.1, 1);}
+.wp-automobile .cs-signin .cs-field-holder .cs-forgot-password{float: right;padding: 10px 0;margin:0;color:#999;font-size:12px;text-decoration:none;}
+.wp-automobile .cs-signin .cs-field-holder .cs-forgot-password i{display: inline-block;font-size: 17px;margin-top: -2px;padding: 0 5px;vertical-align: middle;}
+.wp-automobile .cs-signin .cs-field-holder .cs-checkbox label {display: inline-block;cursor: pointer;position: relative;padding-left: 25px;margin-right: 15px;font-size: 11px;color:#999;}
+.wp-automobile .cs-signin .cs-field-holder .cs-checkbox input[type=checkbox] {display: none;}
+.wp-automobile .cs-signin .cs-field-holder .cs-checkbox label:before {content: "";display: inline-block;width: 16px;height: 18px;margin-right: 10px;position: absolute;left: 0;bottom: 1px;background-color: #fff;box-shadow:none;border:1px solid #c4c4c4;}
+.wp-automobile .cs-signin .cs-field-holder .cs-checkbox label {margin-bottom: 10px;}
+.wp-automobile .cs-signin .cs-field-holder .cs-checkbox label:before {border-radius: 0;}
+.wp-automobile .cs-signin .cs-field-holder .cs-checkbox input[type=checkbox]:checked + label:before {content: "\2713";text-shadow:none;font-size: 12px;color: #999;text-align: center;   line-height: 14px;}
+.wp-automobile .cs-register h4{font-size:18px !important;text-transform:uppercase !important;font-weight:700 !important;letter-spacing:1px !important;margin:0 0 20px 0 !important;font-family: 'Raleway', sans-serif !important;color:#555 !important;}
+.wp-automobile .cs-register{ margin-bottom:30px;}
+.wp-automobile .cs-register .cs-field-holder{ margin-bottom:20px;}
+.wp-automobile .cs-register .cs-field-holder label{font-size:14px; line-height:20px; margin:0 0 10px 0; padding:0; color:#666; font-family: 'Lato', sans-serif;text-transform: none; letter-spacing:1px;}
+.wp-automobile .cs-register .cs-field-holder input[type=text]{border: 1px solid #c4c4c4;border-radius: 2px; box-shadow: none; box-sizing: border-box; color: #999;font-size: 14px;height: 44px;   line-height: 16px;padding: 10px 12px;width: 100%;}
+.wp-automobile .cs-register .cs-field-holder .cs-btn-submit { display:inline-block; color: #fff;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s;position: relative;z-index: 1;}
+.wp-automobile .cs-register .cs-field-holder .cs-btn-submit input[type=submit] {-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s;height: 43px;width: auto;font-size: 13px;line-height: 16px;padding: 10px 25px;border-radius: 3px;text-align: center;color: #fff !important;border: 0;text-transform: uppercase;font-weight: 700;background: none;cursor: pointer;position: relative;z-index: 5; letter-spacing:1px;}
+.wp-automobile .cs-register .cs-field-holder .cs-btn-submit input[type=submit] {text-decoration: none;display: inline-block;}
+.wp-automobile .cs-register .cs-field-holder .cs-btn-submit:before {content: '';position: absolute;bottom: 0;left: 0;width: 100%;height: 100%;z-index: 1;opacity: 0;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s;border-top-width: 1px;border-bottom-width: 1px;border-top-style: solid;border-bottom-style: solid;border-top-color: #d00000;border-bottom-color: #d00000;-webkit-transform: scale(0.1, 1);transform: scale(0.1, 1);}
+.wp-automobile .cs-register .cs-field-holder .cs-btn-submit:hover input[type=submit] {letter-spacing: 2px;color: #d00000 !important;}
+.wp-automobile .cs-register .cs-field-holder .cs-btn-submit:hover::before {opacity: 1;-webkit-transform: scale(1, 1);transform: scale(1, 1);}
+.wp-automobile .cs-register .cs-field-holder .cs-btn-submit:after {content: '';position: absolute;bottom: 0;left: 0;width: 100%;height: 100%;z-index: 1;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;	-o-transition: all 0.3s;transition: all 0.3s;background-color: #d00000;color: #fff;border-radius: 3px;}
+.wp-automobile .cs-register .cs-field-holder .cs-btn-submit:hover:after {opacity: 0;-webkit-transform: scale(0.1, 1);transform: scale(0.1, 1);}
+/**** Signin Page Style End ****/
+/**** Map Search Style Start ****/
+.wp-automobile .main-search.account-search{display:inline-block; width:100%; }
+.wp-automobile .main-search.account-search{background:rgba(0, 0, 0, 0.7) none repeat scroll 0 0; padding: 5px 0 5px 10px; position:absolute; top:0px; }
+.wp-automobile .main-search.account-search h4{color:#fff; margin:0 0 15px; }
+.wp-automobile .main-search.account-search [class*="col-lg"], .wp-jobboard .main-search [class*="col-md"], .wp-jobboard .main-search [class*="col-sm"]{padding:0 5px; }
+.wp-automobile .main-search.account-search .row{margin:0 -5px; }
+.wp-automobile .main-search.account-search .search-input{position:relative; }
+.wp-automobile .main-search.account-search .search-input i{color:#a2a5aa; font-size:16px; left:15px; position:absolute; top:14px; }
+.wp-automobile .main-search.account-search .search-input input[type="text"]{border:1px solid #e0e0e0; color:#aaa; font-size:16px; height:45px; padding:0 0 0 35px; width:100%; }
+.wp-automobile .main-search.account-search .search-input input[type="text"]{border:1px solid #e0e0e0; color:#aaa; font-size:16px; height:45px; padding:0 0 0 35px; width:100%; }
+.wp-automobile .main-search.account-search .search-input label, .wp-jobboard .search-btn label, .wp-jobboard .select-dropdown label, .wp-jobboard .select-location label{color:#999; display:block; font-size:12px; margin:0; padding:7px 0 0 0; }
+.wp-automobile .main-search.account-search .select-dropdown .chosen-container-single .chosen-single{background:#fff; border:1px solid #e0e0e0; border-radius:3px; box-shadow:none; color:#aaa; padding:10px 0 9px 14px; }
+.wp-automobile .main-search.account-search .select-dropdown .chosen-container-single .chosen-single span{font-size:16px; padding:0; }
+.wp-automobile .main-search.account-search .select-dropdown .chosen-container{width:100% !important; }
+.wp-automobile .main-search.account-search .select-dropdown{position:relative; }
+.wp-automobile .main-search.account-search .select-dropdown:before{color:#999; content:"\eaab"; font-family:"icomoon"; font-size:16px; height:44px; line-height:48px; position:absolute; right:15px; top:0; width:10px; z-index:1; }
+.wp-automobile .main-search.account-search .select-dropdown .chosen-container .chosen-drop{border-color:#e0e0e0; }
+.wp-automobile .main-search.account-search .slider.slider-horizontal .tooltip.tooltip-main.top{display:none; }
+.wp-automobile .main-search.account-search .select-location{position:relative; }
+.wp-automobile .main-search.account-search .select-location input[type="text"]{border:1px solid #e0e0e0; border-radius:3px; color:#b0aeb3; background:#fff; font-size:12px; height:30px; padding:0 0 0 14px; width:100%; }
+.wp-automobile .main-search.account-search .main-search.account-search .select-location a.location-btn{ border:0; padding: 5px 0; background-color:#fff; color:#999; font-size:16px; height:28px; line-height:33px; outline:none; position:absolute; right:1px; text-align:center; text-decoration:none; top:1px; width:33px; }
+.wp-automobile .main-search.account-search .main-search.account-search .select-location a.location-btn i{ right:5px; font-size:16px;}
+.wp-automobile .main-search.account-search .select-location a.location-btn{background-color: #fff;border: 0 none;color: #999;font-size: 16px;height: 29px;line-height: 30;margin: 0;outline: medium none;padding: 5px 0;position: absolute;right: 1px;text-align: center;text-decoration: none;top: 1px;width: 30px; }
+.wp-automobile .main-search.account-search .select-location a.location-btn i {
+	right:5px;font-size: 16px;height: 20px;line-height:20px;}
+.wp-automobile .main-search.account-search .search-btn:after{ display:none;}
+.wp-automobile .main-search.account-search .search-btn input[type="button"] {border: medium none;border-radius: 3px;color: #fff; font-size: 16px;font-weight: 600;height: 30px;padding: 0;text-transform: uppercase;    width: 100%;box-shadow: none;}
+.wp-automobile .main-search.account-search .search-btn i {color: #fff;font-size: 15px;left: 39%;position: absolute;top: 23%;}
+/**** Map Search Style End ****/
+/**** Massage Box Style Start ****/
+.wp-automobile .cs-massege-box{ margin-bottom:30px;}
+.wp-automobile .cs-massege-box .alert{ border-radius:0; box-shadow:none; padding:12px 20px; text-shadow:none; margin:0 0 15px 0; position:relative;}
+.wp-automobile .cs-massege-box .alert i{ display:inline-block; vertical-align:middle; margin: -1px 10px 0 0; font-size:22px}
+.wp-automobile .cs-massege-box .alert span{ display: inline-block;font-size: 12px;text-decoration: none;vertical-align: middle;}
+.wp-automobile .cs-massege-box .alert.alert-success{ background:#f5fafd; border:0; color:#4480ae; border:1px solid #e5f2f9;}
+.wp-automobile .cs-massege-box .alert.alert-info{background:#e4f3df; border:0; color:#666;border:1px solid #e4f3df;}
+.wp-automobile .cs-massege-box .alert.alert-warning{background:#fefdf7; border:0; color:#967132; border:1px solid #f7f5e7;}
+.wp-automobile .cs-massege-box .alert.alert-danger{background:#fbf4f3; border:0; color:#967132; border:1px solid #f2e6e6;}
+.wp-automobile .cs-massege-box .alert.alert-danger{ color:#b32f2d;}
+.wp-automobile .cs-massege-box .alert.alert-dismissable .close{ position:absolute; font-size:16px; right:15px; top:14px; font-weight:bold; color:rgba(0,0,0,0.9); font-weight:700;}
+/**** Massage Box Style end ****/
+/*==============================================
+  Socials Media Style Start
+==============================================*/
+.wp-automobile .cs-socials-media {text-align: center;}
+.wp-automobile .cs-socials-media em{font-style:normal;font-size:18px;color:#7f7f7f;font-weight:700;display:block;margin-bottom:15px;}
+.wp-automobile .cs-socials-media ul{margin:0;padding:0;display:block;width:100%;box-shadow: none;}
+.wp-automobile .cs-socials-media ul li{display:inline-block;margin:0 3px 0 0;padding:0;}
+.wp-automobile .cs-socials-media ul li:last-child{margin-right:0;}
+.wp-automobile .cs-socials-media ul li:hover{background:none !important;border-bottom:0;}
+.wp-automobile .cs-socials-media ul li a{font-size:14px;color:#FFF;margin:0;padding:8px 16px;text-transform:capitalize;-webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px;font-weight: 700;}
+.wp-automobile .cs-socials-media ul li a:hover{text-decoration:none;}
+.wp-automobile .cs-socials-media ul li a i{margin-right:7px;}
+.wp-automobile .cs-socials-media ul li a[data-original-title="facebook"] {background: #3b5998 none repeat scroll 0 0;}
+.wp-automobile .cs-socials-media ul li a[data-original-title="twitter"] {background: #00aced none repeat scroll 0 0;}
+.wp-automobile .cs-socials-media ul li a[data-original-title="google-plus"] {background: #ea634e none repeat scroll 0 0;}
+/*==============================================
+  Socials Media Style End
+==============================================*/
+/*index page auto new listing start*/
+.wp-automobile .cs-auto-listing.cs-auto-box .caption-text h2{color:#fff !important;}
+.cs-auto-box-slider.row { margin: 0 -8px;}
+.wp-automobile .cs-auto-listing.cs-auto-box .cs-element-title{padding-bottom: 30px;text-transform:uppercase;}
+.wp-automobile .cs-auto-listing.cs-auto-box .cs-media{position:relative;}
+.wp-automobile .cs-auto-listing.cs-auto-box .cs-media figure{position:relative}
+.wp-automobile .cs-auto-listing.cs-auto-box .cs-media figure img{width:100%;height:auto;}
+.wp-automobile .cs-auto-listing.cs-auto-box .cs-media figure figcaption:before{position:absolute;content:"";width:100%;height:100%;background-color:rgba(0,0,0,0);top:0;transition:all .5s ease-in-out}
+.wp-automobile .cs-auto-listing.cs-auto-box .cs-media:hover figure figcaption:before{background-color:rgba(0,0,0,.3);cursor:pointer;}
+.wp-automobile .cs-auto-listing.cs-auto-box .cs-media:hover .caption-text{bottom:10%;}
+.wp-automobile .cs-auto-listing.cs-auto-box .caption-text {position:absolute;bottom:3%;left:0;transition:all .3s ease-in-out}
+.wp-automobile .cs-auto-listing.cs-auto-box .caption-text{padding:0 78px 0 30px;}
+.wp-automobile .cs-auto-listing.cs-auto-box .caption-text h2{text-transform:uppercase;line-height:26px !important;transition:all .5s ease-in-out;font-weight:800 !important;}
+.wp-automobile .cs-auto-listing.cs-auto-box .auto-text.cs-bgcolor {width:100%;height:64px;color:#fff;line-height:60px;}
+.wp-automobile .cs-auto-listing.cs-auto-box .auto-text.cs-bgcolor span{font-weight:bold;padding-left:20px;padding-right:10px;font-size:18px;}
+.wp-automobile .cs-auto-listing.cs-auto-box .auto-text.cs-bgcolor small{font-size:11px;}
+.wp-automobile .cs-auto-listing.cs-auto-box .auto-text.cs-bgcolor a{color: #fff;font-size: 27px;line-height: 62px;padding-right: 15px;}
+.wp-automobile .cs-auto-listing.cs-auto-box ul.cs-auto-box-slider li{float:left;padding-right:8px;padding-left:8px;}
+.wp-automobile .cs-auto-listing.cs-auto-box ul.cs-auto-box-slider .draggable{overflow:hidden;}
+.wp-automobile .cs-auto-listing.cs-auto-box ul.cs-auto-box-slider .slick-prev, .wp-automobile .cs-auto-listing.cs-auto-box ul.cs-auto-box-slider .slick-next{position:absolute;top:-60px;right:20px;background-color:#bbc0c7; border:none;height:30px; width:30px;color:transparent;} 	
+.wp-automobile .cs-auto-listing.cs-auto-box ul.cs-auto-box-slider .slick-prev{margin-right:40px;}
+.wp-automobile .cs-auto-listing.cs-auto-box ul.cs-auto-box-slider .slick-prev:before, .wp-automobile .cs-auto-listing.cs-auto-box ul.cs-auto-box-slider .slick-next:before{color:#fff;font-family: 'icomoon';font-size:20px;line-height:30px;padding-left:5px;}
+.wp-automobile .cs-auto-listing.cs-auto-box ul.cs-auto-box-slider .slick-prev:before{content:"\e314"}
+.wp-automobile .cs-auto-listing.cs-auto-box ul.cs-auto-box-slider .slick-next:before{content:"\e315"}
+.wp-automobile .cs-auto-listing.cs-auto-box ul.cs-auto-box-slider .featured:after{ background: rgba(0, 0, 0, 0.75) none repeat scroll 0 0;color: #fff;content: "FEATURED";font-weight: bold;left: 26px;padding: 0px 8px;position: absolute;top: 10px;   font-size: 10px;z-index:999;}
+ /*index page auto new listing end*/
+ /*index page Blog grid Start*/
+.wp-automobile .cs-blog.cs-blog-grid .cs-element-title{padding-bottom: 15px;text-transform:uppercase;}
+ /*index page Blog grid End*/
+/* index page Full wide catagory*/
+.wp-automobile .catagory-section .cs-element-title h1{margin: 0;text-transform: uppercase;padding-bottom: 10px;}
+.wp-automobile .catagory-section .cs-element-title span{padding:0;margin: 0;font-size: 14px}
+.wp-automobile .catagory-section .cs-element-title{padding-bottom: 25px;}
+.wp-automobile .catagory-section .cs-catagory ul li{list-style: none;display: block;margin-left:0;}
+.wp-automobile .catagory-section .cs-catagory ul li span {font-size: 13px;font-weight: bold;padding-right: 10px;}
+.wp-automobile .catagory-section .cs-catagory ul li small{font-size: 11px;color: #989899;}
+.wp-automobile .catagory-section .button_style.cs-button {padding-top: 50px;}
+.wp-automobile .catagory-section .button_style.cs-button a{padding:17px 31px;color: #fff;font-weight: bold;text-transform: uppercase;font-size: 11px;position: relative;background-color: rgba(208, 0, 0, 1)}
+.wp-automobile .catagory-section .button_style.cs-button a:hover{background-color: rgba(208, 0, 0, .7)}
+/* index page Full wide catagory*/
+/*tabs section*/
+.wp-automobile .cs-section-title{text-align:center; color:#333333; margin-bottom:45px;}
+.wp-automobile .cs-section-title p, .wp-automobile .cs-section-title h3{text-transform:uppercase;}
+.wp-automobile .cs-tabs.full-width .nav li{border: 1px solid #cccccc;text-align:center;margin-bottom: 38px;width:25%;height:49px;margin-right:-1px;}
+.wp-automobile .cs-tabs.full-width .nav li a{padding:16px 0;color:#cccccc;border:none;display:block;margin-right:0;text-transform:uppercase;font-weight:bold;font-size:11px;}
+/*.wp-automobile .cs-tabs.full-width .nav li h5{color:#acacac;}*/
+.wp-automobile .cs-tabs.full-width .nav-tabs > li.active > a,.wp-automobile .cs-tabs.full-width  .nav-tabs > li.active > a:hover,.wp-automobile .cs-tabs.full-width  .nav-tabs > li.active > a:focus{background-color: #d00000;	border: none; color:#fff !important; border-radius: 0;}
+.wp-automobile .cs-tabs.full-width .nav > li > a:hover, .nav > li > a:focus{border: none;background-color: transparent;border-radius: 0;color: #fff !important;}
+.wp-automobile .cs-tabs.full-width .nav-tabs {border: none;}
+
+
+/* Select Location Style */
+/*.wp-automobile .slider.slider-horizontal .tooltip.tooltip-main.top { display: none; }*/
+.wp-automobile .select-location { position: relative; }
+.wp-automobile .cs-employer-inputs .select-location a.location-btn,
+.wp-automobile .cs-job-inputs .select-location a.location-btn,
+.wp-automobile .cs-candidate-inputs .select-location a.location-btn { right: 1px; }
+.wp-automobile .select-location a.location-btn {font-size: 16px;color: #999;width: 44px;height: 44px;position: absolute;right: -1px;top: 1px;outline: none;line-height: 48px;text-align: center;text-decoration: none;background-color: #fff;}
+.wp-automobile .main-search .select-location a.location-btn { right: 2px; display:block !important; }
+.wp-automobile .main-search .select-location .pop i { line-height: 40px; }
+.wp-automobile .job-side-location-field .select-location a.location-btn { height: 35px; top:2px; }
+.wp-automobile .select-location .select-popup {width: 100%;position: absolute;top: 115%;left: 0;display: none;background-color: #fff;border: 1px solid #e0e0e0;border-top: none;padding: 10px 10px 15px 15px;}
+.wp-automobile .select-location .slider-handle {height: 26px;width: 25px;top: -4px;background: url(../../../chimpgroup.com/themeforest/automobile/assets/images/ui-arrow.html) no-repeat;}
+.wp-automobile .select-location p {margin: 0 0 5px;color: #999;font-weight: 600;font-size: 14px;}
+.wp-automobile .select-location .slider-track {border-radius: 20px;background: #eaeaea;}
+.wp-automobile .select-location .slider-selection { border-radius: 20px; }
+.wp-automobile .select-location .slider.slider-horizontal .slider-track { height: 11px; }
+.wp-automobile .select-location .slider.slider-horizontal {margin: 0 8px 0 0;width: 60%;}
+.wp-automobile .select-location .select-popup span {font-size: 14px;color: #ccc;padding: 0;float: right;}
+.wp-automobile .select-location .my-location a {color: #0066cc;	cursor: pointer;font-size: 12px;margin: 0 0 0 8px;position: relative;text-decoration: underline;top: -2px;}
+.wp-automobile .main-search .select-dropdown select {height: 42px;color: #aaa;padding: 6px 0 8px 14px;}
+
+/*.wp-automobile .slider.slider-horizontal .tooltip.tooltip-main.top { display: none; }*/
+.wp-automobile .select-location { position: relative; }
+.wp-automobile .select-location input[type="text"] {width: 100%;height: 47px;color: #aaa;font-size: 13px;font-weight: 400;padding: 0 0 0 14px;border: 1px solid #f2f2f2; border-radius:0;}
+.wp-automobile .select-location .select-popup:before {border-bottom: 7px solid #e4e4e4;border-left: 7px solid rgba(0, 0, 0, 0);border-right: 7px solid rgba(0, 0, 0, 0);top: -7px;content: "";	display: inline-block;right: 6%;margin: 0 -2px 0 0px;position: absolute;}
+.wp-automobile header .content-style-form.cs-forgot-pbox .cs-login-switch {   display: inline-block;padding: 6px 10px 7px;text-align: center; vertical-align: top;width: 49.555%;}
+.wp-automobile .select-location .select-popup:after {border-bottom: 6px solid #ffffff;border-left: 6px solid rgba(0, 0, 0, 0);border-right: 6px solid rgba(0, 0, 0, 0);top: -5px;content: "";	display: inline-block;right: 6%;margin: 0 -1px 0 0px;position: absolute;}
+.wp-automobile .select-location .slider-handle {height: 26px;width: 25px;top: -4px;background: url(../../../chimpgroup.com/themeforest/images/ui-arrow.html) no-repeat;}
+.wp-automobile .select-location p {margin: 0 0 5px;color: #999;font-weight: 600;font-size: 14px;}
+.wp-automobile .select-location .slider-track {border-radius: 20px;	background: #eaeaea;}
+.wp-automobile .select-location .slider-selection {border-radius: 20px;	background: #0066cc;}
+.wp-automobile .select-location .slider.slider-horizontal .slider-track { height: 11px; }
+.wp-automobile .select-location .select-popup span {font-size: 14px;color: #ccc;padding: 0;display: inline-block;}
+.wp-automobile .select-location .my-location {color: #ccc;margin: 5px 0 0;font-weight: 400;clear: both;text-transform: capitalize;}
+.wp-automobile .main-search .select-location .icon-location-arrow { margin: 0 0 0 5px; }
+/* Selector Range Style */

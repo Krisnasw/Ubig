@@ -1,0 +1,4 @@
+ErrorDocument 404 /ubig/404.html
+ErrorDocument 500 /ubig/500.html
+
+RewriteEngine On

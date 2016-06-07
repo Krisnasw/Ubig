@@ -1,0 +1,74 @@
+/* widget recent style */
+.widget:before{position: absolute; content: ''; bottom: 0; left: -25px; display: block; border-bottom: 1px solid #efefef; width: 1500px; height: 0; visibility: visible;}
+.widget:last-child:before{border:0;}
+.widget{padding-bottom: 28px; margin-bottom: 28px; position: relative;}
+.widget h6{text-transform: uppercase !important; letter-spacing: 1px !important; margin-bottom: 15px;}
+/* widget recent posts */
+.widget-recent-posts:after{display: block; clear: both; content: '';}
+.widget-recent-posts ul{margin:0 0 30px; padding: 0;}
+.widget-recent-posts ul:after{display: block; clear: both; content: '';}
+.widget-recent-posts ul li{list-style: none; margin-bottom: 20px; line-height: 20px;}
+.widget-recent-posts ul li:after{display: block; clear: both; content: '';}
+.widget-recent-posts .cs-text{ overflow:hidden;}
+.widget-recent-posts .cs-text a{font-size: 13px; display: block; margin-bottom: 7px; text-decoration: none;}
+.widget-recent-posts .cs-text span{display: block; font-size: 10px; text-transform: uppercase; color: #999;}
+.widget-recent-posts .cs-text span i{display: inline-block; vertical-align: middle; margin-right: 5px; font-size: 12px;}
+.widget-recent-posts .cs-media{float: right; padding-top: 5px; margin-left:20px;}
+.widget-recent-posts .cs-media img{border-radius: 50%;}
+.widget-recent-posts .cs-view-blog{display: inline-block; border:1px solid #ca4747; letter-spacing: 1px; border-radius: 20px; font-size: 10px; text-transform: uppercase; color: #ca4747; padding:2px 20px; text-decoration: none;}
+/* widget admin */
+.widget-admin:after{display: block; clear: both; content: '';}
+.widget-admin ul:after{display: block; clear: both; content: '';}
+.widget-admin ul li{list-style: none; margin-bottom: 20px; line-height: 20px;}
+.widget-admin ul li:last-child{margin-bottom: 0;}
+.widget-admin ul li:after{display: block; clear: both; content: '';}
+.widget-admin .cs-text{ overflow:hidden;}
+.widget-admin .cs-text a{font-size: 13px; display: block; margin-bottom: 7px; text-decoration: none;}
+.widget-admin .cs-text span{display: block; font-size: 10px; text-transform: uppercase; color: #999;}
+.widget-admin .cs-text span i{display: inline-block; vertical-align: middle; margin-right: 5px; font-size: 12px;}
+.widget-admin .cs-media{float: right; padding-top: 5px; margin:0 0 0 20px;}
+.widget-admin .cs-media img{border-radius: 50%;}
+/* widget tags */
+.widget-tags a{border:1px solid #ededed; display: inline-block; padding: 2px 14px; border-radius: 20px; font-size: 10px; color: #999; text-decoration: none; margin-bottom: 5px; text-transform: uppercase;}
+/* widget search */
+.widget-search .input-holder {position:relative;}
+.widget-search{position: relative; margin-bottom: 30px;}
+.widget-search input[type="text"]{padding-left: 40px;}
+.widget-search label{position: absolute; top: 7px; left: 10px;}
+.widget-search label:after{position: absolute; content: '\eb79'; font-family: icomoon; top: 0; left: 0; color: #ccc; font-size: 20px; opacity: 0.5;}
+.widget-search input[type="submit"]{border: 0; background: none;}
+/* widget categories */
+.widget-categories ul{margin:0; padding: 0;}
+.widget-categories ul li{list-style: none; position: relative; padding-left: 15px;}
+.widget-categories ul li:after{position: absolute; content: ''; top: 13px; left: 0; width: 5px; height: 5px; background: #dcdcdc; border-radius: 50%;}
+.widget-categories ul li a{font-size: 11px; line-height: 26px; text-transform: uppercase; color: #444; letter-spacing: 1px; text-decoration: none;}
+/* featured widget */
+.featured-listing ul{margin: 0; padding: 10px 0 0;}
+.featured-listing ul li{list-style: none; margin-bottom: 20px;}
+.featured-listing ul li .cs-media{float: left; margin-right: 20px;}
+.featured-listing ul li .cs-text{overflow: hidden;}
+.featured-listing ul li .cs-text h6{margin: 0; line-height: 15px !important;}
+.featured-listing ul li .cs-text h6 a{font:600 13px/18px "Raleway",sans-serif !important; text-decoration: none; text-transform: uppercase !important; color: #444;}
+.featured-listing ul li .cs-text span{font-size: 12px;}
+/* widget twitter */
+.widget-twitter ul{margin:0; padding: 0;}
+.widget-twitter ul li{list-style: none; margin-bottom: 10px;}
+.widget-twitter ul li .cs-media{float: left; margin-right: 10px;}
+.widget-twitter ul li .cs-media i{color: #2b97f0;}
+.widget-twitter ul li .cs-text{overflow: hidden;}
+.widget-twitter ul li .cs-text p{font-size: 11px; line-height: 20px; display: inline-block;}
+.widget-twitter ul li .cs-text p a{text-decoration: none;}
+.widget-twitter ul li .cs-text span{display: inline-block; font-size: 10px; color: #999;}
+.widget-twitter ul li .cs-text span i{display: inline-block;}
+.widget.widget-ad img{ width:100%;}
+/*widget Text*/
+.section-sidebar .widget-text .contact-btn {margin:10px 0 0 0;}
+.widget-text .contact-btn {border: 1px solid; border-radius: 3px; font-size: 12px; font-weight: 700; padding: 6px 18px; text-transform: uppercase; display:inline-block; margin:8px 0 0 0;}
+/*widget Comments*/
+.widget-comments li {list-style:none; margin: 0 0 5px;}
+.widget-comments li i {margin:0 10px 0 0; vertical-align:middle; color:#555;}
+.widget-comments li a {font-size:13px; color:#444;}
+/*widget Archives*/
+.widget-archives li {list-style:none; text-align:right; font-size:13px; color:#999; margin: 0 0 5px;}
+.widget-archives li a {float:left; font-size:13px; color:#444;}
+.widget-archives li a i {margin:0 10px 0 0; vertical-align:middle;}
