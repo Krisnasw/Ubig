@@ -14,7 +14,7 @@
 	<div class="main-section"> 
 	
 		<!--Main Banner-->
-		<!--TES GITTTTTTTT-->
+		<!--TES GITTTTTTTT Level 2 -->
 			<div id="cbp-fwslider" class="cbp-fwslider">
 				<ul>
 					<li><a href='#'><img src='assets/images/big/bg.jpg'/></a>
