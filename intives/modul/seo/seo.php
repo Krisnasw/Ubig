@@ -1,3 +1,11 @@
+<?php
+    if (empty($_SESSION['tipeuser']) AND empty($_SESSION['passuser'])) {
+            # code...
+            echo "<link href='css/style.css' rel='stylesheet' type='text/css'>
+            <center>Untuk mengakses halaman ini, Anda harus login <br>";
+            echo "<a href=index.php><b>LOGIN</b></a></center>";
+        }
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -29,7 +37,6 @@
         
     </head>
 
-
     <body class="fixed-left">
         
         <!-- Begin page -->
@@ -58,51 +65,6 @@
                             </div>
                         </div>
 
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="panel panel-default">
-                                    <div class="panel-heading"><h3 class="panel-title">Input Artikel</h3></div>
-                                    <div class="panel-body">
-                                        <form class="form-horizontal" role="form">                                    
-                                            <div class="form-group">
-                                                <label class="col-md-2 control-label">Judul</label>
-                                                <div class="col-md-10">
-                                                    <input type="text" class="form-control" value="Judul Artikel" name="judul">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="col-md-2 control-label" for="example-email">Author</label>
-                                                <div class="col-md-10">
-                                                    <input type="text" class="form-control" value="<?=$_SESSION['nama'];?>" name="author" readonly>
-                                                </div>
-                                            </div>                                                       
-                                            <div class="form-group">
-                                                <label class="col-md-2 control-label">Text area</label>
-                                                <div class="col-md-10">
-                                                    <textarea class="form-control" rows="5"></textarea>
-                                                </div>
-                                            </div>
-
-                                            <div class="form-group">
-                                                <label class="col-sm-2 control-label">Pilih Kategori</label>
-                                                <div class="col-sm-10">
-                                                    <select class="form-control">
-                                                        <option> -- Kategori -- </option>
-                                                        <option>1</option>
-                                                        <option>2</option>
-                                                        <option>3</option>
-                                                        <option>4</option>
-                                                        <option>5</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                           
-                                        </form>
-                                    </div> <!-- panel-body -->
-                                </div> <!-- panel -->
-                            </div> <!-- col -->
-                        </div> <!-- End row -->
-
                         <!-- Input groups -->
                         <div class="row">
                             <div class="col-sm-12">
@@ -112,16 +74,36 @@
                                     
                                         <form class="form-horizontal" role="form">
                                             <div class="form-group">
-
-                                                <label class="col-md-2 control-label" for="example-input1-group1">Static</label>
+                                                <label class="col-md-2 control-label" for="example-input1-group1">Meta Author</label>
                                                 <div class="col-md-7">
                                                     <div class="input-group">
                                                         <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                                        <input type="text" id="example-input1-group1" name="example-input1-group1" class="form-control" placeholder="Username">
+                                                        <input type="text" name="seo" class="form-control" placeholder="Meta Author">
                                                     </div>
                                                 </div>
-
-                                            </div> <!-- form-group -->
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-md-2 control-label" for="example-input1-group1">Meta Content</label>
+                                                <div class="col-md-7">
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                                        <input type="text" name="seo1" class="form-control" placeholder="Meta Author">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-md-2 control-label" for="example-input1-group1">Meta Description</label>
+                                                <div class="col-md-7">
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                                        <input type="text" name="seo2" class="form-control" placeholder="Meta Author">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="form-group pull-right">
+                                                <button name="add" type="submit" class="btn btn-primary waves-effect waves-light m-b-5">Simpan</button>
+                                            </div>
                                           
                                         </form>
                                     

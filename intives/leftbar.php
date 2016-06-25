@@ -41,6 +41,10 @@
                                 </ul>
                             </li>
 
+                            <li>
+                                <a href="?mod=seo" class="waves-effect"><i class="md md-grade"></i><span> Seo </span></a>
+                            </li>
+
                         </ul>
                         <div class="clearfix"></div>
                     </div>

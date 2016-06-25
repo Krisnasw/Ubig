@@ -9,6 +9,8 @@
         <center>Untuk mengakses halaman ini, Anda harus login <br>";
         echo "<a href=index.php><b>LOGIN</b></a></center>";
     } else {
+
+        $ck = new Kendaraan();
 ?>
 <!DOCTYPE html>
 <html>

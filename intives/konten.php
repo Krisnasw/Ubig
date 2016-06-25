@@ -1,4 +1,5 @@
 <?php
+error_reporting(E_ALL);
 
 if ($_GET['mod']=='home') {
 	# code...
@@ -23,6 +24,11 @@ elseif ($_GET['mod']='addblog') {
 elseif ($_GET['mod']=='blog') {
 	# code...
 	include "modul/blog/blog.php";
+}
+
+elseif ($_GET['mod']=='seo') {
+	# code...
+	include "modul/seo/seo.php";
 }
 
 else {

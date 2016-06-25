@@ -81,8 +81,8 @@
 				<div class="row">
 					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 						<div class="cs-column-text">
-							<h2 style="font-size:26px !important;">WELCOME TO THE AutoMotive</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur corporis lab. Architecto, maiores, similique, eos, ea doloribus nihil accusantium fuga numquam corporis nostrum eligendi nemo sapiente quibusdam consequuntur tempore. Suscipit.</p>
+							<h2 style="font-size:26px !important;">Selamat Datang di Carikendaraan.id</h2>
+							<p>Carikendaraan.id adalah sebuah website E-Commerce yang menjual berbagai macam tipe kendaraan maupun baru, bekas.</p>
 							<ul class="cs-icon-list">
 								<li><i class="icon-check2 cs-color"></i>Volutpat luctus lacus hendrerit taciti lobortis in.</li>
 								<li><i class="icon-check2 cs-color"></i>Faucibus amet consectetur erat donec venenatis leo.</li>
@@ -231,90 +231,6 @@
 								</div>
 							</li>
 						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="page-section" style="margin-bottom:70px;">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<div class="section-title" style="text-align:center; color:#333333; margin-bottom:45px;">
-							<h2 style="margin-bottom:5px;">MEDIA GALLERY</h2>
-							<p>It will help us find the Toyota you're looking for in your area.</p>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-						<div class="cs-gallery">
-							<div class="cs-media">
-								<figure><a href="assets/extra-images/gallery-img-1.jpg" class="thumbnail"><img src="assets/extra-images/gallery-img-1.jpg" alt="" /></a>
-									<figcaption><i class="icon-search2"></i><span>People will get clean water</span></figcaption>
-								</figure>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-						<div class="cs-gallery">
-							<div class="cs-media">
-								<figure><a href="assets/extra-images/gallery-img-2.jpg" class="thumbnail"><img src="assets/extra-images/gallery-img-2.jpg" alt="" /></a>
-									<figcaption><i class="icon-search2"></i><span>People will get clean water</span></figcaption>
-								</figure>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-						<div class="cs-gallery">
-							<div class="cs-media">
-								<figure><a href="assets/extra-images/gallery-img-3.jpg" class="thumbnail"><img src="assets/extra-images/gallery-img-3.jpg" alt="" /></a>
-									<figcaption><i class="icon-search2"></i><span>People will get clean water</span></figcaption>
-								</figure>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-						<div class="cs-gallery">
-							<div class="cs-media">
-								<figure><a href="assets/extra-images/gallery-img-4.jpg" class="thumbnail"><img src="assets/extra-images/gallery-img-4.jpg" alt="" /></a>
-									<figcaption><i class="icon-search2"></i><span>People will get clean water</span></figcaption>
-								</figure>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-						<div class="cs-gallery">
-							<div class="cs-media">
-								<figure><a href="assets/extra-images/gallery-img-5.jpg" class="thumbnail"><img src="assets/extra-images/gallery-img-5.jpg" alt="" /></a>
-									<figcaption><i class="icon-search2"></i><span>People will get clean water</span></figcaption>
-								</figure>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-						<div class="cs-gallery">
-							<div class="cs-media">
-								<figure><a href="assets/extra-images/gallery-img-6.jpg" class="thumbnail"><img src="assets/extra-images/gallery-img-6.jpg" alt="" /></a>
-									<figcaption><i class="icon-search2"></i><span>People will get clean water</span></figcaption>
-								</figure>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-						<div class="cs-gallery">
-							<div class="cs-media">
-								<figure><a href="assets/extra-images/gallery-img-7.jpg" class="thumbnail"><img src="assets/extra-images/gallery-img-7.jpg" alt="" /></a>
-									<figcaption><i class="icon-search2"></i><span>People will get clean water</span></figcaption>
-								</figure>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-						<div class="cs-gallery">
-							<div class="cs-media">
-								<figure><a href="assets/extra-images/gallery-img-8.jpg" class="thumbnail"><img src="assets/extra-images/gallery-img-8.jpg" alt="" /></a>
-									<figcaption><i class="icon-search2"></i><span>People will get clean water</span></figcaption>
-								</figure>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>

@@ -86,6 +86,42 @@ class Kendaraan
 		return $sql;
 	}
 
+	public function showKat()
+	{
+		global $db;
+
+		$q = "SELECT * FROM kategori";
+		$sql = $db->query($q);
+
+		return $sql;
+	}
+
+	public function newKategori($kat)
+	{
+		global $db;
+
+		function antiinjection($data)
+		{
+			$filter_sql = mysql_real_escape_string(stripslashes(strip_tags(htmlspecialchars($data,ENT_QUOTES))));
+			
+			return $filter_sql;
+		}
+
+		$cat = antiinjection($kat);
+
+		if (empty($cat)) {
+			# code...
+			echo "<script>alert('Inputan Masih Kosong'); document.location.href='media.php?mod=addblog' </script>";
+		} else {
+			$q = "INSERT INTO kategori(id_kat, nama_kat) VALUES('', '$cat')";
+			$sql = $db->query($q);
+
+			echo "<script>alert('Kategori Berhasil Ditambahkan'); document.location.href='media.php?mod=addblog' </script>";
+		}
+
+		return $sql;
+	}
+
 	public function Acceskey(){
         $ajaxreturn = "";
 
